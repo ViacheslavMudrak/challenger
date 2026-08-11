@@ -1,0 +1,169 @@
+@tailwind base;
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  .section-container {
+    @apply flex;
+    @apply justify-center [&_>_div]:items-center;
+    @apply text-center;
+  }
+  .section-container.spacing-medium {
+    @apply gap-4;
+  }
+
+  .section-container .rich-text,
+  .section-container .scWebEditInput {
+    @apply w-full text-left;
+  }
+
+  .section-container.spacing-large {
+    @apply gap-5;
+  }
+
+  .section-container.spacing-xlarge {
+    @apply gap-7;
+  }
+
+  .section-container.position-left {
+    @apply justify-start [&_>_div]:items-start;
+    @apply text-left;
+  }
+
+  .section-container.position-right {
+    @apply justify-end [&_>_div]:items-end;
+    @apply text-right;
+  }
+
+  .section-container.position-center {
+    @apply justify-center [&_>_div]:items-center;
+    @apply text-center;
+  }
+
+  .section-container-body .rich-text,
+  .section-container-header .rich-text,
+  .section-container-footer .rich-text {
+    @apply flex w-full justify-center;
+  }
+
+  .section-container-body iframe:not([title='reCAPTCHA']),
+  .section-container-footer iframe:not([title='reCAPTCHA']),
+  .section-container-header iframe:not([title='reCAPTCHA']) {
+    @apply aspect-video h-full w-full lg:w-[612px];
+  }
+
+  .column-container {
+    @apply flex;
+    @apply justify-center [&_>_div]:items-center;
+    @apply text-center;
+  }
+
+  .column-container .rich-text,
+  .column-container .scWebEditInput {
+    @apply w-full text-left;
+  }
+
+  .column-container .breadcrumb {
+    @apply py-2;
+  }
+
+  .column-container.spacing-medium {
+    @apply gap-4;
+  }
+
+  .column-container.spacing-large {
+    @apply gap-5;
+  }
+
+  .column-container.spacing-xlarge {
+    @apply gap-7;
+  }
+
+  .column-container.position-left {
+    @apply justify-start [&_>_div]:items-start;
+    @apply text-left;
+  }
+
+  .column-container.position-right {
+    @apply justify-end [&_>_div]:items-end;
+    @apply text-right;
+  }
+
+  .column-container.position-center {
+    @apply justify-center [&_>_div]:items-center;
+    @apply text-center;
+  }
+
+  /* Common styles for all column containers */
+  .column-container-a iframe,
+  .column-container-b iframe,
+  .column-container-c iframe,
+  .column-container-d iframe {
+    @apply h-[300px] w-full lg:h-[400px];
+  }
+
+  .column-container-a .main-form-wrapper iframe,
+  .column-container-b .main-form-wrapper iframe,
+  .column-container-c .main-form-wrapper iframe,
+  .column-container-d .main-form-wrapper iframe {
+    @apply h-[revert-layer];
+  }
+
+  .editing-mode .column-container .rich-text {
+    @apply !min-h-[auto];
+  }
+
+  /* Horizontal alignment for all columns */
+  .column-container .column-container-a.Left,
+  .column-container .column-container-b.Left,
+  .column-container .column-container-c.Left,
+  .column-container .column-container-d.Left {
+    @apply lg:items-start;
+  }
+
+  .column-container .column-container-a.Right,
+  .column-container .column-container-b.Right,
+  .column-container .column-container-c.Right,
+  .column-container .column-container-d.Right {
+    @apply lg:items-end;
+  }
+
+  .column-container .column-container-a.Center,
+  .column-container .column-container-b.Center,
+  .column-container .column-container-c.Center,
+  .column-container .column-container-d.Center {
+    @apply lg:items-center;
+  }
+
+  /* Vertical alignment for all columns */
+  .column-container .column-container-a.Top-align,
+  .column-container .column-container-b.Top-align,
+  .column-container .column-container-c.Top-align,
+  .column-container .column-container-d.Top-align {
+    @apply lg:self-start;
+  }
+
+  .column-container .column-container-a.Center-align,
+  .column-container .column-container-b.Center-align,
+  .column-container .column-container-c.Center-align,
+  .column-container .column-container-d.Center-align {
+    @apply lg:self-center;
+  }
+
+  .column-container .column-container-a.Bottom-align,
+  .column-container .column-container-b.Bottom-align,
+  .column-container .column-container-c.Bottom-align,
+  .column-container .column-container-d.Bottom-align {
+    @apply lg:self-end;
+  }
+
+  /* Mobile responsive behavior for 3 and 4 column layouts */
+  .column-container.EqualThirds,
+  .column-container.FiftyTwentyfiveTwentyfive,
+  .column-container.TwentyfiveTwentyfiveFifty,
+  .column-container.EqualQuarters {
+    @apply flex-wrap lg:flex-nowrap;
+  }
+}

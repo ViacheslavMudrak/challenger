@@ -1,0 +1,27 @@
+﻿---
+ID: "ab13cc5d-cd44-4abe-873b-e413e7d6095d"
+Parent: "9bebcc4f-b067-4f90-967c-97c0a891c2de"
+Template: "7f15debb-df4f-424e-a6f2-77411ac51c9c"
+Path: /sitecore/content/Challenger/Challenger/Data/Disclaimers
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Global Disclaimers
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240123T032835Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2026572-1664-45f7-b353-eac4e091334a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yrandri@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240123T032835Z

@@ -1,0 +1,63 @@
+{
+  "crons": [
+    {
+      "path": "/api/resetPricingData?mode=clearCacheData&type=reset",
+      "schedule": "1 13 * * *"
+    },
+    {
+      "path": "/api/standardPricing?mode=getCarePlusJob&input=scheduler",
+      "schedule": "5 13 * * *"
+    },
+    {
+      "path": "/api/standardPricing?mode=getDLAJob&input=scheduler",
+      "schedule": "7 13 * * *"
+    },
+    {
+      "path": "/api/standardPricing?mode=getFIJob&input=scheduler",
+      "schedule": "10 13 * * *"
+    },
+    {
+      "path": "/api/standardPricing?mode=getMLAJob&input=scheduler",
+      "schedule": "13 13 * * *"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.calixre.com"
+        }
+      ],
+      "destination": "https://www.challenger.com.au/calixre",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "calixre.com"
+        }
+      ],
+      "destination": "https://www.challenger.com.au/calixre",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}

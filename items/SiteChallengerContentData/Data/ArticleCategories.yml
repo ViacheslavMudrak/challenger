@@ -1,0 +1,23 @@
+﻿---
+ID: "834ed4e4-8542-4026-a584-392933ed66a7"
+Parent: "9bebcc4f-b067-4f90-967c-97c0a891c2de"
+Template: "f4f5dc35-45fb-41d7-8994-b575fee6cc07"
+Path: /sitecore/content/Challenger/Challenger/Data/ArticleCategories
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240926T124551Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5f9ad1a-047b-46dd-ad0f-cd7f38e542ce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\svp@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240926T124551Z

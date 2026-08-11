@@ -1,0 +1,65 @@
+@tailwind base;
+
+@layer base {
+  .rates-table {
+    @apply w-full;
+  }
+
+  .rates-table thead {
+    @apply border-b-4 border-bright-navy text-2xl text-bright-navy;
+  }
+
+  .rates-table thead tr:nth-child(1){
+    @apply border-b-2 border-bright-navy;
+  }
+
+  .rates-table thead tr:nth-child(2){
+    @apply text-lg;
+  }
+
+  .rates-table thead th {
+    @apply px-4 py-2 text-start text-nowrap;
+  }
+
+  .rates-table tbody {
+    @apply text-base;
+  }
+
+  .rates-table tbody tr {
+    @apply border-b-[1px] border-b-grey-darker;
+  }
+
+  /* .rates-table tbody tr:nth-child(even) {
+    @apply bg-light-blue;
+  } */
+
+  .rates-table tbody td {
+    @apply px-4 py-4 text-start;
+  }
+
+  .rates-table tfoot {
+    @apply text-start text-xs text-deep-blue;
+  }
+
+  .rates-table tfoot td {
+    @apply py-4;
+  }
+
+  select.drop-down::-ms-expand {
+    display: none;
+  }
+  select.drop-down {
+    box-sizing: border-box;
+    @apply inline-block;
+    @apply px-4 py-2;
+    @apply border border-solid border-grey-darker;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: right 15px top 1em, right 10px top 1em;
+    background-size: 5px 5px, 5px 5px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "AlertFrom": {
+      "value": "2025-01-02T01:00:00Z"
+    },
+    "AlertMessage": {
+      "fields": {
+        "Text": {
+          "value": "\u003ch3\u003eSite is going under maintenance\u003c/h3\u003e\n\u003cp\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tortor ante. Phasellus tempus sed magna a dapibus. Nunc et dui ipsum. Nam et ligula risus. Suspendisse potenti.\u003c/p\u003e\n\u003cp\u003eQuisque ultrices sit amet quam eget scelerisque. Vivamus iaculis augue commodo odio ullamcorper, vel dictum arcu lobortis.\u003c/p\u003e"
+        }
+      }
+    },
+    "AlertTo": {
+      "value": "2027-01-03T02:00:00Z"
+    },
+    "DecorativeLineColor": {
+      "value": "Navy"
+    },
+    "ShowAlert": {
+      "value": true
+    }
+  }
+}

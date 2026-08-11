@@ -1,0 +1,80 @@
+{
+  "rendering": {
+    "uid": "ff714569-452d-4ca5-8d8c-706f3f31751d",
+    "componentName": "Divider",
+    "dataSource": "{9101BA2F-B662-4ADA-8711-4F381135FDA1}",
+    "params": {
+      "GridParameters": "basis-full",
+      "FieldNames": "divider2",
+      "DynamicPlaceholderId": "1"
+    },
+    "fields": {
+      "DividerColorTop1": {
+        "id": "2572705f-5962-4e64-82dc-3caa4efb26ad",
+        "url": "/Data/Background-Colors/Dividers/Green",
+        "name": "Green",
+        "displayName": "Green",
+        "fields": {
+          "Color": {
+            "value": "Green"
+          }
+        }
+      },
+      "DividerColorTop2": {
+        "id": "2572705f-5962-4e64-82dc-3caa4efb26ad",
+        "url": "/Data/Background-Colors/Dividers/DeepBlue",
+        "name": "DeepBlue",
+        "displayName": "DeepBlue",
+        "fields": {
+          "Color": {
+            "value": "DeepBlue"
+          }
+        }
+      },
+      "DividerColorBottom1": {
+        "id": "2572705f-5962-4e64-82dc-3caa4efb26ad",
+        "url": "/Data/Background-Colors/Dividers/DeepBlue",
+        "name": "DeepBlue",
+        "displayName": "DeepBlue",
+        "fields": {
+          "Color": {
+            "value": "DeepBlue"
+          }
+        }
+      },
+      "DividerColorBottom2": {
+        "id": "2572705f-5962-4e64-82dc-3caa4efb26ad",
+        "url": "/Data/Background-Colors/Dividers/Blue",
+        "name": "Blue",
+        "displayName": "Blue",
+        "fields": {
+          "Color": {
+            "value": "Blue"
+          }
+        }
+      },
+      "DividerBottomBgColor": {
+        "id": "f16c902d-5d07-450b-814c-6cbd5a7a2a99",
+        "url": "/en/Data/Background-Colors/DividerBgColors/bg-white",
+        "name": "bg-white",
+        "displayName": "bg-white",
+        "fields": {
+          "Color": {
+            "value": "bg-white"
+          }
+        }
+      },
+      "DividerTopBgColor": {
+        "id": "8dc8acd8-fbd2-433f-b986-ed23f72a2223",
+        "url": "/en/Data/Background-Colors/DividerBgColors/bg-grey-light",
+        "name": "bg-grey-light",
+        "displayName": "bg-grey-light",
+        "fields": {
+          "Color": {
+            "value": "bg-grey-light"
+          }
+        }
+      }
+    }
+  }
+}

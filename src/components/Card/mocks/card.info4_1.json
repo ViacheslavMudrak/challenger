@@ -1,0 +1,116 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "Card.info4",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "link_component": "Profile card",
+      "link_name": "select1",
+      "link_event": "event1"
+    },
+    "fields": {
+      "Heading": {
+        "value": "Lifetime Annuities"
+      },
+      "HeadingLevel": {
+        "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+        "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+        "name": "h3",
+        "displayName": "h3",
+        "fields": {
+          "Level": {
+            "value": "h3",
+            "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+          }
+        }
+      },
+      "Content": {
+        "value": "Lorem ipsum dolor sit amet consectetur. Ullamcorper habitant in malesuada rutrum."
+      },
+      "WithShadow": {
+        "value": true
+      },
+      "UseModal": {
+        "value": true
+      },
+      "Role": {
+        "value": "Independent Non-Executive Director and Chair"
+      },
+      "FullName": {
+        "value": "Duncan West"
+      },
+      "Bio": {
+        "value": "Lorem ipsum dolor sit amet consectetur. Ullamcorper habitant in malesuada rutrum."
+      },
+      "Type": {
+        "value": "image_card_with_shards"
+      },
+      "Size": {
+        "id": "18179479-8754-4ec4-873e-cc9285d98aab",
+        "url": "/Data/Sizes/Medium?sc_site=Challenger",
+        "name": "Medium",
+        "displayName": "Medium",
+        "fields": {
+          "Size": {
+            "value": "md"
+          }
+        }
+      },
+      "Alignment": {
+        "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+        "url": "/Data/Card-Alignments/Icon-Cards/Left",
+        "name": "Left",
+        "displayName": "Left",
+        "fields": {
+          "Alignment": {
+            "value": "Left"
+          }
+        }
+      },
+      "ShardColor": {
+        "id": "fa8567b6-c915-40e0-b88a-16c42dbf746e",
+        "url": "/Data/Colors/ShardColors/Green?sc_site=Challenger",
+        "name": "Green",
+        "displayName": "Green",
+        "fields": {
+          "Color": {
+            "value": "green",
+            "editable": "\u003cinput id='fld_FA8567B6C91540E0B88A16C42DBF746E_11D461E6DB5F45579D3FE15A477A05CB_en_1_23f76248da3349d09f85021292619df2_2380' class='scFieldValue' name='fld_FA8567B6C91540E0B88A16C42DBF746E_11D461E6DB5F45579D3FE15A477A05CB_en_1_23f76248da3349d09f85021292619df2_2380' type='hidden' value=\"green\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{FA8567B6-C915-40E0-B88A-16C42DBF746E}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Color\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_FA8567B6C91540E0B88A16C42DBF746E_11D461E6DB5F45579D3FE15A477A05CB_en_1_23f76248da3349d09f85021292619df2_2380_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003egreen\u003c/span\u003e"
+          }
+        }
+      },
+      "ShardType": {
+        "id": "f26c56cf-e895-47e2-9f85-c61b82ad1015",
+        "url": "/Data/Card-Shard-Types/Profile?sc_site=Challenger",
+        "name": "Profile",
+        "displayName": "Profile",
+        "fields": {
+          "ShardType": {
+            "value": "profile",
+            "editable": "\u003cinput id='fld_F26C56CFE89547E29F85C61B82AD1015_ABD13D6DAE29411DADC45F3C7EA9CE35_en_1_d34fba589bf34b549d7ef3e04b00dd26_2381' class='scFieldValue' name='fld_F26C56CFE89547E29F85C61B82AD1015_ABD13D6DAE29411DADC45F3C7EA9CE35_en_1_d34fba589bf34b549d7ef3e04b00dd26_2381' type='hidden' value=\"profile\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{F26C56CF-E895-47E2-9F85-C61B82AD1015}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"ShardType\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_F26C56CFE89547E29F85C61B82AD1015_ABD13D6DAE29411DADC45F3C7EA9CE35_en_1_d34fba589bf34b549d7ef3e04b00dd26_2381_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eprofile\u003c/span\u003e"
+          }
+        }
+      },
+      "CardImage": {
+        "value": {
+          "src": "/sample1.jpg",
+          "alt": "",
+          "width": "1600",
+          "height": "550"
+        }
+      },
+      "Link": {
+        "value": {
+          "href": "https://www.google.com",
+          "text": "Read More",
+          "linktype": "external",
+          "url": "https://www.google.com",
+          "anchor": "",
+          "target": "_blank"
+        }
+      }
+    }
+  }
+}

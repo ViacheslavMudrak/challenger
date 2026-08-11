@@ -1,0 +1,27 @@
+.tickerContainer {
+  mask: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(0, 0, 0) 10%,
+    rgb(0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.tickerContent {
+  animation: scrollAnimation var(--animation-duration, '90s') linear infinite;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* transform: translateX(calc(-100% + var(--client-width, 0))); */
+    transform: translateX(-100%);
+  }
+}
+
+.tickerContainer:hover .tickerContent {
+  animation-play-state: paused;
+}

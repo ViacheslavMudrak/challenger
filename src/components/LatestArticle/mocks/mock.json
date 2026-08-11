@@ -1,0 +1,20 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "LatestArticle",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Styles": "bg-grey-light"
+    },
+    "fields": {
+      "PageTitle": {
+        "value": "LatestArticle?"
+      },
+      "ItemsPerPage": {
+        "value": 8
+      }
+    }
+  }
+}

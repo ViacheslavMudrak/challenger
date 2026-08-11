@@ -1,0 +1,23 @@
+﻿---
+ID: "6a6d1e56-64e8-426e-846b-46119a02dd88"
+Parent: "9bebcc4f-b067-4f90-967c-97c0a891c2de"
+Template: "e091d7c9-271e-4f0b-a2f7-a1c744e29825"
+Path: /sitecore/content/Challenger/Challenger/Data/Icons
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240124T002438Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00d57a6e-967b-4364-8659-2fdb160c24d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yrandri@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240124T002438Z

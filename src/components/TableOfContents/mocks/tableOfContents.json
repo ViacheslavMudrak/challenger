@@ -1,0 +1,314 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "TableOfContents",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Heading": "Table of contents",
+      "Styles": "bg-white",
+      "link_component": "Table of contents"
+    },
+    "placeholders": {
+      "table-of-contents": [
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f2",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "Overview",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#overview"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/Primary",
+              "name": "Primary",
+              "displayName": "Primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        },
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f3",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "Benefits",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#benefits"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/Primary",
+              "name": "Primary",
+              "displayName": "Primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        },
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f3",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "Payment options",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#payment-options"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/Primary",
+              "name": "Primary",
+              "displayName": "Primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        },
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f3",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "Frequent asked questions",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#frequent-asked-questions"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/Primary",
+              "name": "Primary",
+              "displayName": "Primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        },
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f3",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "Useful links",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#useful-links"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/Primary",
+              "name": "Primary",
+              "displayName": "Primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        },
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f3",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "What are the risks?",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#what-are-the-risks"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/primary",
+              "name": "primary",
+              "displayName": "primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        },
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f3",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "Choice of options",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#choice-of-options"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/primary",
+              "name": "primary",
+              "displayName": "primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        },
+        {
+          "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f3",
+          "componentName": "Button.sitecore",
+          "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "LinkGreen",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "LinkValue": {
+              "value": {
+                "linktype": "internal",
+                "text": "Share registry",
+                "querystring": "",
+                "target": "_self",
+                "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                "href": "#share-registry"
+              }
+            },
+            "Color": {
+              "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+              "url": "/Data/Button-Types/primary",
+              "name": "primary",
+              "displayName": "primary",
+              "fields": {
+                "Type": {
+                  "value": "primary"
+                }
+              }
+            },
+            "HasArrow": {
+              "value": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "rendering": {
+        "uid": "52e8394e-6250-432f-8d2f-e2e9126f625b",
+        "componentName": "POCCard",
+        "dataSource": "{32F5355D-C91F-4DAB-8A4E-AC1499E0C1BD}",
+        "params": {
+            "CacheClearingBehavior": "Clear on publish"
+        },
+        "fields": {
+            "CardTitle": {
+                "value": "Static storybook Test header"
+            },
+            "CardContent": {
+                "value": "<p>some content:<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at lacinia lectus. Mauris magna ex, consectetur eget vulputate eget, ultrices sit amet nibh. Suspendisse cursus posuere dictum. Etiam sed suscipit ante. Sed eu varius sem. Suspendisse dui leo, bibendum et elementum ut, condimentum at elit. Vestibulum interdum vulputate justo vitae luctus. Praesent eget pulvinar velit. Sed scelerisque elit quam, et condimentum leo sollicitudin ac. Nunc non tortor sit amet arcu maximus volutpat ut nec diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer et tortor et nisi malesuada suscipit. Suspendisse potenti.</p>"
+            },
+            "CardLink": {
+                "value": {
+                    "text": "Link description",
+                    "anchor": "",
+                    "linktype": "internal",
+                    "class": "customclass",
+                    "title": "Alternative text",
+                    "target": "_blank",
+                    "querystring": "test=querystring",
+                    "id": "{A2FDEA84-AAE8-4E08-B035-A0A7534FD9E4}",
+                    "href": "/test"
+                }
+            },
+            "CardImage": {
+                "value": {
+                    "src": "/sample1.jpg",
+                    "alt": "alternative text",
+                    "width": "500",
+                    "height": "170"
+                }
+            }
+        }
+    }
+}

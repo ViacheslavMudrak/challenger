@@ -1,0 +1,23 @@
+﻿---
+ID: "9ce74e39-8b27-48c8-8137-460eae612763"
+Parent: "a6dff70c-5e6f-4515-b552-a96dac72c76a"
+Template: "4cc1de55-dd7c-45c4-9a77-bdbad02b83af"
+Path: /sitecore/content/Challenger/Challenger/Settings/Meta Keywords
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T093117Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7aae91c-07c9-45b1-83aa-822f1ea50ac7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\asanmugam@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240910T093239Z

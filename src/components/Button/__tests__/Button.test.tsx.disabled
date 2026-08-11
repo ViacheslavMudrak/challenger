@@ -1,0 +1,17 @@
+import { render, screen } from '@testing-library/react';
+import Button from '../Button';
+import { ColorType, Variant } from '../Button.types';
+
+describe('Button', () => {
+  test('should render correctly', () => {
+    render(
+      <Button color={ColorType.Primary} variant={Variant.Solid}>
+        Test
+      </Button>
+    );
+
+    const button = screen.getByRole('button');
+
+    expect(button).toBeInTheDocument();
+  });
+});

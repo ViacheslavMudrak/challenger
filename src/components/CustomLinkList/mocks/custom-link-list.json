@@ -1,0 +1,109 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "CustomLinkList",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Styles": "bg-white spacing-medium position-center",
+      "link_component": "Link list"
+    },
+    "placeholders": {
+      "link-list-container": [
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+          "componentName": "CustomLink.item",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "https://www.google.com/sample.pdf",
+                "text": "Lifetime annuity (liquid lifetime) PDS",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d622",
+          "componentName": "CustomLink.item",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "https://www.google.com/sample1.pdf",
+                "text": "Lifetime Annuity (Liquid Lifetime) Target Market Determination (TMD)",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+          "componentName": "CustomLink.item",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Additional information guide",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d624",
+          "componentName": "CustomLink.item",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Letter of compliance",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

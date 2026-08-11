@@ -1,0 +1,246 @@
+@tailwind base;
+
+@layer base {
+  .rich-text h1 {
+    @apply font-roboto-700 text-[40px] text-bright-navy;
+  }
+
+  .rich-text h2 {
+    @apply font-roboto-700 text-[32px] text-bright-navy;
+  }
+
+  .rich-text h3 {
+    @apply font-roboto-700 text-2xl text-bright-navy;
+  }
+
+  .rich-text h4 {
+    @apply font-roboto-400 text-xl text-bright-navy;
+  }
+
+  .rich-text h6 {
+    @apply py-2 text-left font-roboto-400 text-xs text-deep-blue;
+  }
+
+  .rich-text a {
+    @apply relative w-fit cursor-pointer text-base text-bright-navy underline underline-offset-2;
+  }
+
+  .rich-text h1 a,
+  .rich-text h2 a,
+  .rich-text h3 a,
+  .rich-text h4 a,
+  .rich-text h5 a,
+  .rich-text h6 a {
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  .rich-text .rt-link-button {
+    @apply w-full min-w-[110px] rounded-sm px-6 py-3 font-roboto-500 text-lg lg:w-fit;
+    @apply border border-white bg-bright-navy text-white outline-2 outline-offset-2 outline-blue hover:bg-blue focus:outline;
+  }
+
+  /* ---------------------------------------------------------------------*/
+  /* table-template1 */
+  /* ---------------------------------------------------------------------*/
+
+  .rt-table-template1 {
+    @apply w-full;
+  }
+
+  .rt-table-template1 thead {
+    @apply border-b-4 border-bright-navy text-2xl text-bright-navy;
+  }
+
+  .rt-table-template1 thead th {
+    @apply px-4 py-2 text-start;
+  }
+
+  .rt-table-template1 tbody {
+    @apply text-base;
+  }
+
+  .rt-table-template1 tbody tr {
+    @apply border-b-[1px] border-b-grey-darker;
+  }
+
+  .rt-table-template1 tbody td {
+    @apply px-4 py-4 text-start;
+  }
+
+  .rt-table-template1 tfoot {
+    @apply text-start text-xs text-deep-blue;
+  }
+
+  .rt-table-template1 tfoot td {
+    @apply py-4;
+  }
+
+  /* ---------------------------------------------------------------------*/
+  /* table-template2 */
+  /* ---------------------------------------------------------------------*/
+
+  .rt-table-template2 {
+    @apply w-full;
+  }
+
+  .rt-table-template2 thead {
+    @apply border-b-4 border-bright-navy text-2xl;
+  }
+
+  .rt-table-template2 thead th {
+    @apply px-4 py-2 text-start;
+  }
+
+  .rt-table-template2 tbody {
+    @apply text-base;
+  }
+
+  .rt-table-template2 tbody tr {
+    @apply even:bg-grey-light;
+  }
+
+  .rt-table-template2 tbody td {
+    @apply px-4 py-4 text-start;
+  }
+
+  .rt-table-template2 tfoot {
+    @apply text-start text-xs text-deep-blue;
+  }
+
+  .rt-article-section1 {
+    @apply flex w-full flex-col gap-4 p-6 text-left;
+    @apply font-roboto-400 text-2xl;
+    @apply border-l-4 border-challenger-green bg-grey-light;
+  }
+
+  .rt-article-section1 a {
+    @apply relative w-fit font-roboto-700 text-lg text-bright-navy;
+  }
+
+  .rt-article-section1 a::after {
+    content: '';
+    @apply bg-no-repeat;
+    @apply absolute -right-6 top-2 h-[13px] w-[20px];
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='13' viewBox='0 0 20 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 5.25H16.75V7.5H0.5V5.25Z' fill='%2300205B'/%3E%3Cpath d='M12.8715 0L19.2354 6.36396L17.6444 7.95495L11.2805 1.59099L12.8715 0Z' fill='%2300205B'/%3E%3Cpath d='M12.8649 12.7275L19.2288 6.36354L17.6378 4.77255L11.2739 11.1365L12.8649 12.7275Z' fill='%2300205B'/%3E%3C/svg%3E ");
+  }
+
+  .rt-article-section2 {
+    @apply flex w-full flex-col gap-4 p-6 text-left;
+    @apply font-roboto-400 text-base;
+    @apply border-l-4 border-challenger-green bg-grey-light;
+  }
+
+  .rt-article-section2 h3,
+  .rt-article-section2 h4 {
+    @apply font-roboto-400 text-2xl;
+  }
+
+  .rt-article-section2 a {
+    @apply font-roboto-700 text-base text-blue;
+  }
+
+  ul.rt-custom-list {
+    @apply relative flex flex-col gap-2;
+  }
+
+  ul.rt-custom-list li {
+    @apply relative pl-8 text-left font-roboto-400 text-base;
+  }
+
+  ul.rt-custom-list li::marker {
+    @apply text-sm;
+  }
+
+  ul.rt-custom-list li::before {
+    content: '';
+    @apply absolute left-0 top-[5px] h-[13px] w-[18px];
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='13' viewBox='0 0 18 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17.0532 2.05309L6.7501 12.3562L0.947021 6.55309L2.80318 4.69693L6.7501 8.64385L15.197 0.19693L17.0532 2.05309Z' fill='%23B5BD00'/%3E%3C/svg%3E");
+  }
+
+  ul.rt-custom-list2 {
+    @apply pl-10;
+    @apply relative flex flex-col gap-[14px];
+  }
+
+  ul.rt-custom-list2 li {
+    @apply relative pl-5 text-left font-roboto-400 text-sm text-deep-blue;
+  }
+
+  ul.rt-custom-list2 li::marker {
+    @apply text-sm;
+  }
+
+  ul li.rt-article-section2,
+  ul li.rt-article-section1,
+  .rich-text ul li.rt-article-section3,
+  .rich-text ol li.rt-article-section3,
+  ol li.rt-article-section2,
+  ol li.rt-article-section1 {
+    @apply relative border-l-4 border-challenger-green;
+    @apply py-1 pl-16;
+  }
+
+  .rich-text ol li,
+  .rich-text ul li {
+    @apply relative;
+    @apply py-1 pl-16;
+  }
+
+  .rich-text ol {
+    counter-reset: LIST-ITEMS 0;
+  }
+
+  .rich-text ol li::before {
+    content: counter(LIST-ITEMS) '.';
+    counter-increment: LIST-ITEMS;
+    @apply absolute left-10 top-[4px];
+  }
+
+  ul.rt-custom-list2 li::before {
+    content: '';
+    @apply absolute left-0 top-[2px] h-[15px] w-[15px];
+    @apply bg-no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='15' viewBox='0 0 10 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2.18666 14.0531L0.949219 12.8157L6.5805 7.18438L0.949219 1.5531L2.18666 0.315662L9.05537 7.18438L2.18666 14.0531Z' fill='%2300205B'/%3E%3C/svg%3E%0A");
+  }
+
+  .rich-text .rt-custom-list ::before {
+    content: '';
+  }
+
+  .rich-text .rt-custom-list2 ::before {
+    content: '';
+  }
+
+  .rich-text ul li::before {
+    content: '• ';
+    @apply absolute left-10 top-[5px];
+  }
+
+  ul li.rt-article-section1::before {
+    @apply absolute left-10 top-1;
+  }
+
+  ul li.rt-article-section2::before {
+    @apply absolute left-10 top-[5px];
+  }
+
+  .rich-text .rt-article-section3 {
+    @apply flex w-full flex-col gap-4 p-6 text-left;
+    @apply font-roboto-400 text-2xl;
+    @apply border-l-4 border-challenger-green bg-white;
+  }
+
+  .rich-text figure.table,
+  .ck-content .table {
+    @apply max-xl:flex;
+    @apply max-xl:max-w-[calc(100vw-40px)];
+    -webkit-overflow-scrolling: touch;
+    @apply max-xl:overflow-x-auto;
+    @apply max-xl:w-full;
+  }
+
+  .column-container .tab-variant1 .ck-contnent .table {
+    @apply max-xl:max-w-[calc(100vw-80px)];
+  }
+}

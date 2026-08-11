@@ -1,0 +1,46 @@
+{
+  "widget": {
+    "items": [
+      {
+        "rfk_id": "rfkid_7",
+        "entity": "content",
+        "sources": [
+          "1046026"
+        ],
+        "search": {
+          "content": {},
+          "limit": 6,
+          "offset": 0,
+          "query": {
+            "keyphrase": "*"
+          },
+          "facet": {
+            "all": true
+          },
+          "filter": {
+            "filters": [
+              {
+                "type": "eq",
+                "name": "type",
+                "value": "Individual"
+              },
+              {
+                "type": "eq",
+                "name": "article_type",
+                "value": "IndividualArticle"
+              }
+            ],
+            "type": "and"
+          },
+          "sort": {
+            "value": [
+              {
+                "name": "published_date"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

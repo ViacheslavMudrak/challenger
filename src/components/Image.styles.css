@@ -1,0 +1,20 @@
+@tailwind base;
+
+@layer base {
+  .image-zoom-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image-zoom-container img {
+    transition: transform 0.3s ease;
+  }
+
+  .image-zoom-container img.zoomed {
+    transform: scale(2);
+    cursor:
+      url("data:image/svg+xml,%3c%3fxml version='1.0' encoding='iso-8859-1'%3f%3e %3csvg fill='black' height='20px' width='20px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 472.616 472.616' xml:space='preserve'%3e %3cg%3e %3cg%3e %3cpolygon points='180.094%2c160.403 180.094%2c87.566 160.402%2c87.566 160.402%2c160.403 87.566%2c160.403 87.566%2c180.095 160.402%2c180.095 160.402%2c252.932 180.094%2c252.932 180.094%2c180.095 252.931%2c180.095 252.931%2c160.403 '/%3e %3c/g%3e %3c/g%3e %3cg%3e %3cg%3e %3cpath d='M461.659%2c408.756L314.075%2c261.172c41.678-65.811%2c33.943-153.921-23.444-211.308c-66.486-66.485-174.281-66.485-240.767%2c0 c-66.486%2c66.488-66.486%2c174.284%2c0%2c240.77c57.386%2c57.384%2c145.496%2c65.12%2c211.306%2c23.442L408.755%2c461.66 c14.609%2c14.609%2c38.295%2c14.609%2c52.904%2c0C476.268%2c447.052%2c476.268%2c423.364%2c461.659%2c408.756z M168.979%2c304.056 c-74.481%2c0-135.077-60.596-135.077-135.076c0-74.481%2c60.596-135.077%2c135.077-135.077c74.482%2c0%2c135.077%2c60.596%2c135.077%2c135.077 C304.056%2c243.46%2c243.461%2c304.056%2c168.979%2c304.056z'/%3e %3c/g%3e %3c/g%3e %3c/svg%3e")
+        20 20,
+      auto;
+  }
+}

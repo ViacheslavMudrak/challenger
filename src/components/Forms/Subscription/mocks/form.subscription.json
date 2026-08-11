@@ -1,0 +1,82 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "Form.subscription",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Styles": "bg-white spacing-medium position-center",
+      "FormBgColor": "None"
+    },
+
+    "placeholders": {
+      "form-subscription-main": [
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+          "componentName": "Form.subscription.main",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn about retirement and investment"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "Lorem ipsum dolor sit amet consectetur. Ullamcorper habitant in malesuada rutrum. Sagittis fermentum eget habitasse id."
+            }
+          }
+        }
+      ],
+      "form-subscription-complete": [
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+          "componentName": "Form.subscription.complete",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Thank you"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "Lorem ipsum dolor sit amet consectetur. Ullamcorper habitant in malesuada rutrum. Sagittis fermentum eget habitasse id."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "rendering": {
+      "uid": "er714569-452d-4ca5-8d8c-706f3f31752d",
+      "componentName": "Button.sitecore",
+      "dataSource": "{9101BA2F-B662-4ADA-8711-4F381135FDA1}",
+      "params": {
+          "GridParameters": "basis-full",
+          "FieldNames": "solid",
+          "DynamicPlaceholderId": "2"
+      },
+      "fields": {
+          "LinkValue": {
+              "value": {
+                      "href": "https://challenger.com.au",
+                      "text": "Button label",
+                      "linktype": "external",
+                      "url": "https://challenger.com.au",
+                      "anchor": "",
+                      "target": ""
+                  }
+              },
+              "Color": {
+                  "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+                  "url": "/Data/Button-Types/Secondary",
+                  "name": "Secondary",
+                  "displayName": "Secondary",
+                  "fields": {
+                      "Type": {
+                          "value": "secondary"
+                      }
+                  }
+              },
+              "HasArrow": {
+                  "value": true
+              }
+          }
+      }
+  }

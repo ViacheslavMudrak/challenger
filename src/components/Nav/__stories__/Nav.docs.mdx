@@ -1,0 +1,14 @@
+import { Meta, Canvas, Story } from '@storybook/blocks';
+import * as NavStories from './Nav.stories';
+
+<Meta title="components/Nav/Docs" of={NavStories} />
+
+# Nav
+
+Website navigation is a collection of user interface components that allows visitors find content and features on a site. These components can be in the form of copy, link text and buttons, and menus.
+
+<Canvas >
+  <div style={{'height': '500px'}}>
+    <Story of={NavStories.Default} />
+  </div>
+</Canvas>

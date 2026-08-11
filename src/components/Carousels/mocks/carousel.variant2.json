@@ -1,0 +1,507 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "carousel.variant2",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Styles": "bg-grey-light spacing-medium position-center",
+      "link_component": "Carousel"
+    },
+    "variant": "Default",
+    "placeholders": {
+      "carousel-info": [
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+          "componentName": "Carousel.variant2.info",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn about retirement and investment"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales fermentum arcu, et egestas dui maximus eu"
+            },
+            "Link": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          }
+        }
+      ],
+      "carousel-container-2": [
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+          "componentName": "Card.info2",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn about retirement and investment"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "<p>Vestibulum ac diam eu massa imperdiet facilisis auctor non velit. </p>"
+            },
+            "Link2": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "BorderTopColor": {
+              "id": "89e8b30f-fa83-4004-adbb-e0a53db0303e",
+              "url": "/Data/Colors/CardBorderTop/Teal?sc_site=Challenger",
+              "name": "Teal",
+              "displayName": "Teal",
+              "fields": {
+                "Color": {
+                  "value": "teal"
+                }
+              }
+            },
+            "Alignment": {
+              "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+              "url": "/Data/Card-Alignments/Icon-Cards/Left",
+              "name": "Left",
+              "displayName": "Left",
+              "fields": {
+                "Alignment": {
+                  "value": "Left"
+                }
+              }
+            },
+            "BackgroundColor": {
+              "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+              "url": "/Data/Background-Colors/Cards/Grey",
+              "name": "Grey",
+              "displayName": "Grey",
+              "fields": {
+                "Color": {
+                  "value": "Grey"
+                }
+              }
+            },
+            "Size": {
+              "fields": {
+                "Size": {
+                  "value": "sm"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d622",
+          "componentName": "Card.info2",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn about investment 1"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "<p>Vestibulum ac diam eu massa imperdiet facilisis auctor non velit.</p>"
+            },
+            "BorderTopColor": {
+              "id": "89e8b30f-fa83-4004-adbb-e0a53db0303e",
+              "url": "/Data/Colors/CardBorderTop/Blue?sc_site=Challenger",
+              "name": "Blue",
+              "displayName": "Blue",
+              "fields": {
+                "Color": {
+                  "value": "blue"
+                }
+              }
+            },
+            "Link": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "Alignment": {
+              "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+              "url": "/Data/Card-Alignments/Icon-Cards/Left",
+              "name": "Left",
+              "displayName": "Left",
+              "fields": {
+                "Alignment": {
+                  "value": "Left"
+                }
+              }
+            },
+            "BackgroundColor": {
+              "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+              "url": "/Data/Background-Colors/Cards/Grey",
+              "name": "Grey",
+              "displayName": "Grey",
+              "fields": {
+                "Color": {
+                  "value": "Grey"
+                }
+              }
+            },
+            "Size": {
+              "fields": {
+                "Size": {
+                  "value": "md"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+          "componentName": "Card.info3",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn about investment 2"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "<p>Vestibulum ac diam eu massa imperdiet facilisis auctor non velit. </p>"
+            },
+            "Type": {
+              "value": "icon_card"
+            },
+            "CardImage": {
+              "value": {
+                "src": "/sample3.jpg",
+                "alt": "",
+                "width": "1600",
+                "height": "550"
+              }
+            },
+            "Icon": {
+              "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+              "url": "/Data/Icons/General/Connect",
+              "name": "Connect",
+              "displayName": "Connect",
+              "fields": {
+                "IconType": {
+                  "value": "ConnectIcon"
+                }
+              }
+            },
+            "Link": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "Alignment": {
+              "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+              "url": "/Data/Card-Alignments/Icon-Cards/Left",
+              "name": "Left",
+              "displayName": "Left",
+              "fields": {
+                "Alignment": {
+                  "value": "Left"
+                }
+              }
+            },
+            "BackgroundColor": {
+              "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+              "url": "/Data/Background-Colors/Cards/Grey",
+              "name": "Grey",
+              "displayName": "Grey",
+              "fields": {
+                "Color": {
+                  "value": "Grey"
+                }
+              }
+            },
+            "Size": {
+              "fields": {
+                "Size": {
+                  "value": "lg"
+                }
+              }
+            },
+            "Icon1": {
+              "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+              "url": "/Data/Icons/General/Facebook",
+              "name": "Facebook",
+              "displayName": "Facebook",
+              "fields": {
+                "IconType": {
+                  "value": "FacebookIcon"
+                }
+              }
+            },
+            "Link": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "Icon2": {
+              "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+              "url": "/Data/Icons/General/LinkedIn",
+              "name": "LinkedIn",
+              "displayName": "LinkedIn",
+              "fields": {
+                "IconType": {
+                  "value": "LinkedInIcon"
+                }
+              }
+            },
+            "Link2": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "Icon3": {
+              "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+              "url": "/Data/Icons/General/Mail",
+              "name": "Mail",
+              "displayName": "Mail",
+              "fields": {
+                "IconType": {
+                  "value": "MailIcon"
+                }
+              }
+            },
+            "Link3": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d624",
+          "componentName": "Card.info2",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn about investment 3"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "Vestibulum ac diam eu massa imperdiet facilisis auctor non velit. "
+            },
+            "BorderTopColor": {
+              "id": "89e8b30f-fa83-4004-adbb-e0a53db0303e",
+              "url": "/Data/Colors/CardBorderTop/Navy?sc_site=Challenger",
+              "name": "Navy",
+              "displayName": "Navy",
+              "fields": {
+                "Color": {
+                  "value": "navy"
+                }
+              }
+            },
+            "Link2": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "Alignment": {
+              "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+              "url": "/Data/Card-Alignments/Icon-Cards/Left",
+              "name": "Left",
+              "displayName": "Left",
+              "fields": {
+                "Alignment": {
+                  "value": "Left"
+                }
+              }
+            },
+            "Size": {
+              "fields": {
+                "Size": {
+                  "value": "xl"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d625",
+          "componentName": "Card.info2",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn about investment 4"
+            },
+            "HeadingLevel": {
+              "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+              "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+              "name": "h3",
+              "displayName": "h3",
+              "fields": {
+                "Level": {
+                  "value": "h3",
+                  "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                }
+              }
+            },
+            "Content": {
+              "value": "Sed commodo magna massa, quis condimentum tortor venenatis et. Vestibulum ac diam eu massa imperdiet facilisis auctor non velit. "
+            },
+            "Link2": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Read More",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "Alignment": {
+              "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+              "url": "/Data/Card-Alignments/Icon-Cards/Left",
+              "name": "Left",
+              "displayName": "Left",
+              "fields": {
+                "Alignment": {
+                  "value": "Left"
+                }
+              }
+            },
+            "Size": {
+              "fields": {
+                "Size": {
+                  "value": "sm"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

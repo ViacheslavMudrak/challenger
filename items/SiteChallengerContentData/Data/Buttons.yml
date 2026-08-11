@@ -1,0 +1,27 @@
+﻿---
+ID: "722d001b-5a23-4f03-b152-603a6da09a70"
+Parent: "9bebcc4f-b067-4f90-967c-97c0a891c2de"
+Template: "2c9064d2-4805-4fd4-956b-021d845cfd1a"
+Path: /sitecore/content/Challenger/Challenger/Data/Buttons
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Global Buttons
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T052539Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90d3e4db-8e09-40ad-b974-d02421229860"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nraninga@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240201T052539Z

@@ -1,0 +1,1512 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "CardWizard",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Styles": "spacing-medium position-left"
+    },
+    "placeholders": {
+      "card-wizard-container": [
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+          "componentName": "CardWizard.item.main",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1",
+            "link_component": "card wizard main",
+            "link_name": "select",
+            "link_event": "event",
+            "link_name2": "select2",
+            "link_event2": "event2",
+            "Styles": "bg-white"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Tell us what you’re looking for, and we’ll help you get there"
+            },
+            "Key": {
+              "value": "card-main"
+            }
+          },
+          "placeholders": {
+            "card-wizard-item-main": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Card.container",
+                "dataSource": "",
+                "params": {
+                  "Styles": "position-center",
+                  "CardsPerRow": "4",
+                  "IncludeSeparator": "1"
+                },
+                "placeholders": {
+                  "card-container": [
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "Learn about retirement and investment"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Icon": {
+                          "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+                          "url": "/Data/Icons/General/Chart-Bar",
+                          "name": "Chart Bar",
+                          "displayName": "Chart Bar",
+                          "fields": {
+                            "IconType": {
+                              "value": "ChartBarIcon"
+                            }
+                          }
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Select",
+                            "linktype": "internal",
+                            "url": "#card-wizard-2_1",
+                            "href": "#card-wizard-2_1",
+                            "target": "_self"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d622",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "Learn about investment"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Icon": {
+                          "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+                          "url": "/Data/Icons/General/Check",
+                          "name": "Check",
+                          "displayName": "Check",
+                          "fields": {
+                            "IconType": {
+                              "value": "CheckIcon"
+                            }
+                          }
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Select",
+                            "linktype": "internal",
+                            "url": "#card-wizard-2_2",
+                            "href": "#card-wizard-2_2",
+                            "target": "_self"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "Learn more about annuities"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Icon": {
+                          "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+                          "url": "/Data/Icons/General/Connect",
+                          "name": "Connect",
+                          "displayName": "Connect",
+                          "fields": {
+                            "IconType": {
+                              "value": "ConnectIcon"
+                            }
+                          }
+                        },
+                        "Link": {
+                          "value": {
+                            "href": "https://www.google.com",
+                            "text": "Read More",
+                            "linktype": "external",
+                            "url": "https://www.google.com",
+                            "anchor": "",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d624",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "Get the support that you need"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Icon": {
+                          "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+                          "url": "/Data/Icons/General/ChatIcon",
+                          "name": "ChatIcon",
+                          "displayName": "ChatIcon",
+                          "fields": {
+                            "IconType": {
+                              "value": "ChatIcon"
+                            }
+                          }
+                        },
+                        "Link": {
+                          "value": {
+                            "href": "https://www.google.com",
+                            "text": "Read More",
+                            "linktype": "external",
+                            "url": "https://www.google.com",
+                            "anchor": "",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d622",
+          "componentName": "CardWizard.item.child",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1",
+            "link_component": "card wizard child",
+            "link_name": "select",
+            "link_event": "event",
+            "Styles": "bg-white"
+          },
+          "fields": {
+            "Heading": {
+              "value": "I want to know how an annuity can help me prepare for retirement"
+            },
+            "Key": {
+              "value": "card-wizard-2_1"
+            },
+            "BackKey": {
+              "value": ""
+            },
+            "ButtonLabel": {
+              "value": "back"
+            },
+            "Content": {
+              "value": "Many retirees feel unsure about their future prospects. The plan for your retirement can vary a lot based on your financial situation, investments and aged care plans."
+            },
+            "FooterContent": {
+              "value": "Not sure? <a>Speak to an adviser instead</a>"
+            }
+          },
+          "placeholders": {
+            "card-wizard-item-child": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Card.container",
+                "dataSource": "",
+                "params": {
+                  "Styles": "position-center",
+                  "CardsPerRow": "4",
+                  "IncludeSeparator": "1"
+                },
+                "placeholders": {
+                  "card-container": [
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "I want to feel more prepared"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Select",
+                            "linktype": "internal",
+                            "url": "#card-wizard-3_1",
+                            "href": "#card-wizard-3_1",
+                            "target": "_self"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d622",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "I want to protect my income"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Link": {
+                          "value": {
+                            "href": "https://www.google.com",
+                            "text": "Select",
+                            "linktype": "external",
+                            "url": "https://www.google.com",
+                            "anchor": "",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "I want to plan for aged care"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Select",
+                            "linktype": "internal",
+                            "url": "#card-wizard-3_2",
+                            "href": "#card-wizard-3_2",
+                            "target": "_self"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d624",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "I want to build wealth"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Link": {
+                          "value": {
+                            "href": "https://www.google.com",
+                            "text": "Select",
+                            "linktype": "external",
+                            "url": "https://www.google.com",
+                            "anchor": "",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+          "componentName": "CardWizard.item.child",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "I want to know how an annuity can help me prepare for retirement"
+            },
+            "Key": {
+              "value": "card-wizard-3_1"
+            },
+            "BackKey": {
+              "value": "card-wizard-2_1"
+            },
+            "ButtonLabel": {
+              "value": "back"
+            },
+            "Content": {
+              "value": "There are several ways in which you can prepare for your retirement."
+            },
+            "FooterText": {
+              "value": "Not sure?"
+            },
+            "FooterLink1": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Speak to an adviser instead",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            },
+            "FooterLink2": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Select",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          },
+          "placeholders": {
+            "card-wizard-item-child": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Card.container",
+                "dataSource": "",
+                "params": {
+                  "Styles": "spacing-medium position-left",
+                  "CardsPerRow": "2"
+                },
+                "placeholders": {
+                  "card-container": [
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+                      "componentName": "Card.info2",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "This is a topic relevant to the result"
+                        },
+                        "SubHeading": {
+                          "value": "This is an optional description of the category"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "Content": {
+                          "value": "<p>Adding some text here</p>"
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": true
+                        },
+                        "UseSolidButton": {
+                          "value": true
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Read more",
+                            "linktype": "external",
+                            "url": "",
+                            "href": "https://www.google.com",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "id": "150a7dba-35e8-41ce-a429-cb3f6f16a4dd",
+                          "url": "/Data/Sizes/Md?sc_site=Challenger",
+                          "name": "Md",
+                          "displayName": "Md",
+                          "fields": {
+                            "Size": {
+                              "value": "Md"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+                      "componentName": "Card.info2",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "This is a tool relevant to the result"
+                        },
+                        "SubHeading": {
+                          "value": "This is an optional description of the category"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "Content": {
+                          "value": "<p>Adding some text here</p>"
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": true
+                        },
+                        "UseSolidButton": {
+                          "value": true
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Read more",
+                            "linktype": "external",
+                            "url": "",
+                            "href": "https://www.google.com",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "id": "150a7dba-35e8-41ce-a429-cb3f6f16a4dd",
+                          "url": "/Data/Sizes/Md?sc_site=Challenger",
+                          "name": "Md",
+                          "displayName": "Md",
+                          "fields": {
+                            "Size": {
+                              "value": "Md"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d626",
+          "componentName": "CardWizard.item.child",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "Learn more about annuities"
+            },
+            "Key": {
+              "value": "card-wizard-2_2"
+            },
+            "BackKey": {
+              "value": ""
+            },
+            "ButtonLabel": {
+              "value": "back"
+            },
+            "Content": {
+              "value": "An annuity is a financial product that can provide you guaranteed regular income in retirement. As Australia's largest annuity provider, Challenger provides regular income payments to thousands of Australian retirees."
+            },
+            "FooterText": {
+              "value": ""
+            }
+          },
+          "placeholders": {
+            "card-wizard-item-child": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Card.container",
+                "dataSource": "",
+                "params": {
+                  "Styles": "position-center",
+                  "CardsPerRow": "3",
+                  "IncludeSeparator": "1"
+                },
+                "placeholders": {
+                  "card-container": [
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "I want to learn about  the difference between lifetime and term annuities"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Select",
+                            "linktype": "internal",
+                            "url": "#card-wizard-3_2",
+                            "href": "#card-wizard-3_2",
+                            "target": "_self"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d622",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "I want to know how an annuity can help me prepare for retirement"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Link": {
+                          "value": {
+                            "href": "https://www.google.com",
+                            "text": "Select",
+                            "linktype": "external",
+                            "url": "https://www.google.com",
+                            "anchor": "",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+                      "componentName": "Card.info1",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "I want to know which annuity might be suitable for me"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "Content": {
+                          "value": ""
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": false
+                        },
+                        "Link": {
+                          "value": {
+                            "href": "https://www.google.com",
+                            "text": "Select",
+                            "linktype": "external",
+                            "url": "https://www.google.com",
+                            "anchor": "",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "value": "md"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+          "componentName": "CardWizard.item.child",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Heading": {
+              "value": "I want to learn about  the difference between lifetime and term annuities"
+            },
+            "Key": {
+              "value": "card-wizard-3_2"
+            },
+            "BackKey": {
+              "value": "card-wizard-2_2"
+            },
+            "ButtonLabel": {
+              "value": "back"
+            },
+            "Content": {
+              "value": "A lifetime annuity pays a guaranteed income for the rest of your life, while a fixed term annuity pays for a fixed period of time."
+            },
+            "FooterText": {
+              "value": "Not sure?"
+            },
+            "FooterLink1": {
+              "value": {
+                "href": "https://www.google.com",
+                "text": "Speak to an adviser instead",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_blank"
+              }
+            }
+          },
+          "placeholders": {
+            "card-wizard-item-child": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Card.container",
+                "dataSource": "",
+                "params": {
+                  "Styles": "spacing-medium position-center",
+                  "CardsPerRow": "2"
+                },
+                "placeholders": {
+                  "card-container": [
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+                      "componentName": "Card.info2",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "This is a topic relevant to the result"
+                        },
+                        "SubHeading": {
+                          "value": "This is an optional description of the category"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "Content": {
+                          "value": "<ul><li>Receive guaranteed regular payments.</li><li>Tax-free payments, if you’re using super to invest and you’re 60 or over</li></ul>"
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": true
+                        },
+                        "UseSolidButton": {
+                          "value": true
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Apply Now",
+                            "linktype": "external",
+                            "url": "",
+                            "href": "https://www.google.com",
+                            "target": "_blank"
+                          }
+                        },
+                        "Link2": {
+                          "value": {
+                            "text": "Learn more",
+                            "linktype": "external",
+                            "url": "",
+                            "href": "https://www.google.com",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "id": "150a7dba-35e8-41ce-a429-cb3f6f16a4dd",
+                          "url": "/Data/Sizes/Md?sc_site=Challenger",
+                          "name": "Md",
+                          "displayName": "Md",
+                          "fields": {
+                            "Size": {
+                              "value": "Md"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+                      "componentName": "Card.info2",
+                      "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+                      "params": {
+                        "GridParameters": "basis-full",
+                        "FieldNames": "Default",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "1"
+                      },
+                      "fields": {
+                        "Heading": {
+                          "value": "This is a tool relevant to the result"
+                        },
+                        "SubHeading": {
+                          "value": "This is an optional description of the category"
+                        },
+                        "HeadingLevel": {
+                          "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+                          "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+                          "name": "h3",
+                          "displayName": "h3",
+                          "fields": {
+                            "Level": {
+                              "value": "h3",
+                              "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+                            }
+                          }
+                        },
+                        "WithBorder": {
+                          "value": false
+                        },
+                        "Content": {
+                          "value": "<ul><li>Receive guaranteed regular payments.</li><li>Tax-free payments, if you’re using super to invest and you’re 60 or over</li></ul>"
+                        },
+                        "WithHoverEffect": {
+                          "value": true
+                        },
+                        "WithShadow": {
+                          "value": true
+                        },
+                        "UseSolidButton": {
+                          "value": true
+                        },
+                        "Link": {
+                          "value": {
+                            "text": "Read more",
+                            "linktype": "external",
+                            "url": "",
+                            "href": "https://www.google.com",
+                            "target": "_blank"
+                          }
+                        },
+                        "Alignment": {
+                          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+                          "url": "/Data/Card-Alignments/Icon-Cards/Center",
+                          "name": "Center",
+                          "displayName": "Center",
+                          "fields": {
+                            "Alignment": {
+                              "value": "Center"
+                            }
+                          }
+                        },
+                        "BackgroundColor": {
+                          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+                          "url": "/Data/Background-Colors/Cards/Grey",
+                          "name": "Grey",
+                          "displayName": "Grey",
+                          "fields": {
+                            "Color": {
+                              "value": "Grey"
+                            }
+                          }
+                        },
+                        "Size": {
+                          "id": "150a7dba-35e8-41ce-a429-cb3f6f16a4dd",
+                          "url": "/Data/Sizes/Md?sc_site=Challenger",
+                          "name": "Md",
+                          "displayName": "Md",
+                          "fields": {
+                            "Size": {
+                              "value": "Md"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

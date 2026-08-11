@@ -1,0 +1,62 @@
+{
+  "uid": "6c93b460-970c-427a-a7bc-0070ae11d79d",
+  "componentName": "POCCard",
+  "dataSource": "{19BC2424-7912-477B-807D-76F76CCDD7E5}",
+  "fields": {
+      "Icon": {
+          "id": "a2b3e94f-cc40-4a49-9576-6fd553e92c22",
+          "url": "/Data/Icons/General/Chart-Bar",
+          "name": "Chart Bar",
+          "displayName": "Chart Bar",
+          "fields": {
+              "IconType": {
+                  "value": "ChartBarIcon"
+              }
+          }
+      },
+      "Title": {
+          "value": "Learn about retirement and investment"
+      },
+      "Content": {
+          "value": "card content here...."
+      },
+      "Link": {
+          "value": {
+              "href": "https://www.google.com",
+              "text": "Read More",
+              "linktype": "external",
+              "url": "https://www.google.com",
+              "anchor": "",
+              "target": "_blank"
+          }
+      },
+      "CardAlignment": {
+          "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+          "url": "/Data/Card-Alignments/Icon-Cards/Left",
+          "name": "Left",
+          "displayName": "Left",
+          "fields": {
+              "Alignment": {
+                  "value": "Left"
+              }
+          }
+      },
+      "CardBackground": {
+          "id": "be873b8a-2509-44e9-9f54-75983ee5f674",
+          "url": "/Data/Background-Colors/Cards/Grey",
+          "name": "Grey",
+          "displayName": "Grey",
+          "fields": {
+              "Color": {
+                  "value": "Grey"
+              }
+          }
+      },
+      "ShowLogo": {
+          "value": true
+      },
+      "DisplayBorder": {
+          "value": true
+      }
+  }
+}

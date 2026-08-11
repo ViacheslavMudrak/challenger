@@ -1,0 +1,38 @@
+﻿---
+ID: "ee69f6f6-8ead-4e60-9564-55f4ef2eff71"
+Parent: "9bebcc4f-b067-4f90-967c-97c0a891c2de"
+Template: "48a7c737-b46b-4795-8800-5590ff60b3ef"
+Path: /sitecore/content/Challenger/Challenger/Data/CardWizard Folder
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{87ACD3D2-1A6B-40F4-9F7D-2B8C3B2E0681}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240806T120818Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{69D5214D-933E-4F88-A3BC-BF9773AEE528}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sukumar@challenger.com.au
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sukumar@challenger.com.au
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43bce64a-7d51-4b7c-8155-459abe72fe5f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\kkesav@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T043532Z

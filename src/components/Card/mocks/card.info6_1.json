@@ -1,0 +1,37 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "Card.info6",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "link_component": "Image Card",
+      "link_name": "select",
+      "link_event": "event"
+    },
+    "fields": {
+      "Type": {
+        "value": "image_card"
+      },
+      "CardImage": {
+        "value": {
+            "src": "/client1.png",
+            "alt": "",
+            "width": "400",
+            "height": "400"
+        }
+      },
+      "Link": {
+        "value": {
+          "href": "https://www.google.com",
+          "text": "Read More",
+          "linktype": "external",
+          "url": "https://www.google.com",
+          "anchor": "",
+          "target": "_blank"
+        }
+      }
+    }
+  }
+}

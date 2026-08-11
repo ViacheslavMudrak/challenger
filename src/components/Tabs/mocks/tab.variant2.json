@@ -1,0 +1,222 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "Tab",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Styles": "spacing-medium position-left",
+      "link_component": "Tab"
+    },
+    "fields": {
+      "Alignment": {
+        "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+        "url": "/Data/Alignments/Tab/Left",
+        "name": "Left",
+        "displayName": "Left",
+        "fields": {
+          "Alignment": {
+            "value": "Left"
+          }
+        }
+      }
+    },
+    "placeholders": {
+      "tab-container": [
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d621",
+          "componentName": "Tab.item.location",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "#sydney",
+                "text": "Sydney - Head office",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_self"
+              }
+            },
+            "Content": {
+              "value": "<h3>Address</h3><p>Level 25 Martin Place, Sydney NSW 2000</p><h3>Phone number</h3><p>02 9994 7000</p><h3>Fax number</h3><p>02 9994 7777</p>"
+            }
+          },
+          "placeholders": {
+            "tab-item-location": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Image",
+                "dataSource": "",
+                "params": {
+                  "Styles": "position-left"
+                },
+                "fields": {
+                  "Image": {
+                    "value": {
+                      "src": "map.png",
+                      "alt": "sample1",
+                      "width": "720",
+                      "height": "518"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d622",
+          "componentName": "Tab.item.location",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "#adelaide",
+                "text": "Adelaide",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_self"
+              }
+            },
+            "Content": {
+              "value": "<h3>Address</h3><p>Suite 74, 147 Pirie Street, Adelaide SA 5000</p><h3>Phone number</h3><p>02 9994 7000</p><h3>Fax number</h3><p>02 9994 7777</p>"
+            }
+          },
+          "placeholders": {
+            "tab-item-location": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Image",
+                "dataSource": "",
+                "params": {
+                  "Styles": "position-left"
+                },
+                "fields": {
+                  "Image": {
+                    "value": {
+                      "src": "map.png",
+                      "alt": "sample1",
+                      "width": "720",
+                      "height": "518"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d623",
+          "componentName": "Tab.item.location",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "#brisbane",
+                "text": "Brisbane",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_self"
+              }
+            },
+            "Content": {
+              "value": "<h3>Address</h3><p>Brisbane</p><h3>Phone number</h3><p>02 9994 7000</p><h3>Fax number</h3><p>02 9994 7777</p>"
+            }
+          },
+          "placeholders": {
+            "tab-item-location": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Image",
+                "dataSource": "",
+                "params": {
+                  "Styles": "position-left"
+                },
+                "fields": {
+                  "Image": {
+                    "value": {
+                      "src": "map.png",
+                      "alt": "sample1",
+                      "width": "720",
+                      "height": "518"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uid": "18834685-f7fb-4e26-aae1-7a9a9c62d625",
+          "componentName": "Tab.item.location",
+          "dataSource": "{0707D856-96FB-4B65-B201-B2DDB9d401D9}",
+          "params": {
+            "GridParameters": "basis-full",
+            "FieldNames": "Default",
+            "CacheClearingBehavior": "Clear on publish",
+            "DynamicPlaceholderId": "1"
+          },
+          "fields": {
+            "Link": {
+              "value": {
+                "href": "#melbourne",
+                "text": "Melbourne",
+                "linktype": "external",
+                "url": "https://www.google.com",
+                "anchor": "",
+                "target": "_self"
+              }
+            },
+            "Content": {
+              "value": "<h3>Address</h3><p>Melbourne</p><h3>Phone number</h3><p>02 9994 7000</p><h3>Fax number</h3><p>02 9994 7777</p>"
+            }
+          },
+          "placeholders": {
+            "tab-item-location": [
+              {
+                "uid": "1ff5ed91-e3fe-4cc9-8b44-c25744b62fe2",
+                "componentName": "Image",
+                "dataSource": "",
+                "params": {
+                  "Styles": "position-left"
+                },
+                "fields": {
+                  "Image": {
+                    "value": {
+                      "src": "map.png",
+                      "alt": "sample1",
+                      "width": "720",
+                      "height": "518"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

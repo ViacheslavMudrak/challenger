@@ -1,0 +1,128 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "Card.info14",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "link_component": "case study card",
+      "link_name": "select",
+      "link_event": "event"
+    },
+    "fields": {
+      "Heading": {
+        "value": "Maree"
+      },
+      "HeadingLevel": {
+        "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+        "url": "/Data/HeadingLevels/h3?sc_site=Challenger",
+        "name": "h3",
+        "displayName": "h3",
+        "fields": {
+          "Level": {
+            "value": "h3",
+            "editable": "\u003cinput id='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' class='scFieldValue' name='fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793' type='hidden' value=\"h2\" /\u003e\u003cspan class=\"scChromeData\"\u003e{\"commands\":[{\"click\":\"chrome:common:edititem({command:\\\"webedit:open\\\"})\",\"header\":\"Edit the related item\",\"icon\":\"/temp/iconcache/office/16x16/cubes.png\",\"disabledIcon\":\"/temp/cubes_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Edit the related item in the Content Editor.\",\"type\":\"common\"},{\"click\":\"chrome:rendering:personalize({command:\\\"webedit:personalize\\\"})\",\"header\":\"Personalize\",\"icon\":\"/temp/iconcache/office/16x16/users_family.png\",\"disabledIcon\":\"/temp/users_family_disabled16x16.png\",\"isDivider\":false,\"tooltip\":\"Create or edit personalization for this component.\",\"type\":\"sticky\"}],\"contextItemUri\":\"sitecore://master/{9827E4FE-B9F9-41CB-BE35-146581EB1348}?lang=en\u0026ver=1\",\"custom\":{},\"displayName\":\"Level\",\"expandedDisplayName\":null}\u003c/span\u003e\u003cspan sc_parameters=\"prevent-line-break=true\" class=\"scWebEditInput\" id=\"fld_9827E4FEB9F941CBBE35146581EB1348_DA4780498AFA4491BD8749F395166D81_en_1_9c7c065153eb4aefada0f9815447fa8d_3793_edit\" contenteditable=\"true\" scDefaultText=\"[No text in field]\" scFieldType=\"single-line text\"\u003eh2\u003c/span\u003e"
+          }
+        }
+      },
+      "Content": {
+        "value": "<h3>Assets</h3><span>$600,000 each in account-based pensions</span><span>$600,000 each in account-based pensions</span><span>$600,000 each in account-based pensions</span>"
+      },
+      "WithShadow": {
+        "value": true
+      },
+      "Type": {
+        "value": "case_study_card"
+      },
+      "Size": {
+        "id": "18179479-8754-4ec4-873e-cc9285d98aab",
+        "url": "/Data/Sizes/Medium?sc_site=Challenger",
+        "name": "Medium",
+        "displayName": "Medium",
+        "fields": {
+          "Size": {
+            "value": "md"
+          }
+        }
+      },
+      "Alignment": {
+        "id": "1a517afd-0ca3-4b0e-a34c-1a5d02ee409c",
+        "url": "/Data/Card-Alignments/Icon-Cards/Left",
+        "name": "Left",
+        "displayName": "Left",
+        "fields": {
+          "Alignment": {
+            "value": "Left"
+          }
+        }
+      },
+      "CardImage": {
+        "value": {
+          "src": "/sample1.jpg",
+          "alt": "",
+          "width": "1600",
+          "height": "550"
+        }
+      },
+      "Link": {
+        "value": {
+          "href": "https://www.google.com",
+          "text": "Discover More",
+          "linktype": "external",
+          "url": "https://www.google.com",
+          "anchor": "",
+          "target": "_blank"
+        }
+      },
+      "Title": {
+        "value": "How Maree sets up the lifestyle she wants in retirement"
+      },
+      "ProductImage": {
+        "value": {
+          "src": "/sample2.jpg",
+          "alt": "",
+          "width": "1600",
+          "height": "550"
+        }
+      },
+      "Overview": {
+        "value": "<p>At age 67, Maree has spent her life working hard and looking after others. She is debt-free and hopes her savings, combined with the Age Pension (she is currently receiving $7,969 p.a.), will pay her way in retirement. She expects to spend $33,000 each year to cover basic expenses in retirement. But with the rising cost of living, to enjoy things like holidays, meals out and entertainment, she estimates her annual income will need to be closer to $47,383 (based on June quarter 2022 ASFA comfortable lifestyle retirement standard for a single age between 65-84).</p><p>Based on life expectancy figures, Maree can expect to be retired for over 23 years. At the moment, Maree is enjoying good health and she’s worried she will outlive her savings. She is worried about the rising cost of living and that the Age Pension alone won’t cover her basic expenses.</p><p>An extra source of guaranteed, regular income, with payments linked to the Consumer Price Index (CPI), would give Maree peace of mind that she won’t be left with a gap between her income and cost of living. She has thought about investments but has concerns about losing money to a volatile share market.</p>"
+      },
+      "Strategy": {
+        "value": "<p>She is debt-free and hopes her savings, combined with the Age Pension (she is currently receiving $7,969 p.a.), will pay her way in retirement. She expects to spend $33,000 each year to cover basic expenses in retirement. But with the rising cost of living, to enjoy things like holidays, meals out and entertainment, she estimates her annual income will need to be closer to $47,383 (based on June quarter 2022 ASFA comfortable lifestyle retirement standard for a single age between 65-84).</p><p>Based on life expectancy figures, Maree can expect to be retired for over 23 years. At the moment, Maree is enjoying good health and she’s worried she will outlive her savings. She is worried about the rising cost of living and that the Age Pension alone won’t cover her basic expenses.</p><p>An extra source of guaranteed, regular income, with payments linked to the Consumer Price Index (CPI), would give Maree peace of mind that she won’t be left with a gap between her income and cost of living. She has thought about investments but has concerns about losing money to a volatile share market.</p>"
+      },
+      "Result": {
+        "value": "<p>She expects to spend $33,000 each year to cover basic expenses in retirement. But with the rising cost of living, to enjoy things like holidays, meals out and entertainment, she estimates her annual income will need to be closer to $47,383 (based on June quarter 2022 ASFA comfortable lifestyle retirement standard for a single age between 65-84).</p><p>Based on life expectancy figures, Maree can expect to be retired for over 23 years. At the moment, Maree is enjoying good health and she’s worried she will outlive her savings. She is worried about the rising cost of living and that the Age Pension alone won’t cover her basic expenses.</p><p>An extra source of guaranteed, regular income, with payments linked to the Consumer Price Index (CPI), would give Maree peace of mind that she won’t be left with a gap between her income and cost of living. She has thought about investments but has concerns about losing money to a volatile share market.</p>"
+      },
+      "Goal": {
+        "value": "Maree wants a comfortable retirement lifestyle and income security for her later years."
+      },
+      "ProductHeading": {
+        "value": "Lifetime Annuities"
+      },
+      "ProductContent": {
+        "value": "Lorem ipsum dolor sit amet consectetur. Ullamcorper habitant in malesuada rutrum."
+      },
+      "ProductLink": {
+        "value": {
+          "href": "https://www.google.com",
+          "text": "Learn more",
+          "linktype": "external",
+          "url": "https://www.google.com",
+          "anchor": "",
+          "target": "_blank"
+        }
+      },
+      "Tag1": {
+        "value": "Tag 1"
+      },
+      "Tag2": {
+        "value": "Tag 2"
+      },
+      "Tag3": {
+        "value": "Tag 3"
+      }
+    }
+  }
+}

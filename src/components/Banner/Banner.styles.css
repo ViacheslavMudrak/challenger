@@ -1,0 +1,186 @@
+@tailwind base;
+
+@layer base {
+  @keyframes template1-shape1-animation {
+    0% {
+      clip-path: polygon(0 0, 0% 100%, 300% 0);
+    }
+    100% {
+      clip-path: polygon(0 0, 0% 100%, 16% 0);
+    }
+  }
+
+  @keyframes template1-shape2-animation {
+    0% {
+      clip-path: polygon(0 0, 0% 100%, 300% 0);
+    }
+    100% {
+      clip-path: polygon(0 0, 0% 100%, 31% 0);
+    }
+  }
+
+  @keyframes template1-shape3-animation {
+    0% {
+      clip-path: polygon(0 0, 0% 100%, 300% 0);
+    }
+    100% {
+      clip-path: polygon(0 0, 0% 100%, 38% 0);
+    }
+  }
+
+  @keyframes template1-shape4-animation {
+    0% {
+      clip-path: polygon(100% 100%, 0% 100%, 100% 100%);
+    }
+    100% {
+      clip-path: polygon(100% 72%, 0% 100%, 100% 81%);
+    }
+  }
+
+  @keyframes template1-shape5-animation {
+    0% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    100% {
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    }
+  }
+
+  @keyframes template1-content-animation {
+    0% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    100% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+    }
+  }
+
+  .template1-shape1 {
+    left: 0;
+    @apply md:-left-[0.5px];
+    clip-path: polygon(0 0, 0 100%, 16% 0);
+  }
+
+  .template1-shape1.animation {
+    animation-name: template1-shape1-animation;
+    animation-duration: 2s;
+  }
+
+  .template1-shape2 {
+    clip-path: polygon(0 0, 0% 100%, 31% 0);
+  }
+
+  .template1-shape2.animation {
+    animation-name: template1-shape2-animation;
+    animation-delay: 100ms;
+    animation-duration: 2s;
+  }
+
+  .template1-shape3 {
+    clip-path: polygon(0 0, 0% 100%, 38% 0);
+  }
+
+  .template1-shape3.animation {
+    animation-name: template1-shape3-animation;
+    animation-delay: 200ms;
+    animation-duration: 2s;
+  }
+
+  .template1-shape4 {
+    clip-path: polygon(100% 72%, 0% 100%, 100% 81%);
+  }
+
+  .template1-shape4.animation {
+    animation-name: template1-shape4-animation;
+    animation-duration: 2s;
+  }
+
+  .template1-shape5 {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+  }
+
+  .template1-shape5.animation {
+    animation-name: template1-shape5-animation;
+    animation-duration: 2s;
+  }
+
+  /* Workaround due to pixel rounding error in browser */
+  .pixel-rounding-error-fix {
+    box-shadow: 0 1px theme('colors.challenger-green');
+
+    @screen md {
+      box-shadow: none;
+    }
+  }
+
+  .pixel-rounding-error-fix-navy {
+    box-shadow: 0 1px theme('colors.bright-navy');
+  }
+
+  .pixel-rounding-error-fix-navy-light {
+    box-shadow: 0 1px theme('colors.bright-navy-light');
+
+    @screen md {
+      box-shadow: none;
+    }
+  }
+
+  .pixel-rounding-error-fix-vertical {
+    box-shadow: 1px 0 theme('colors.challenger-green');
+  }
+
+  .pixel-rounding-error-fix-white {
+    box-shadow: 0 1px theme('colors.white');
+  }
+
+  .pixel-rounding-error-fix-blue {
+    box-shadow: 0 1px theme('colors.deep-blue');
+    @screen md {
+      box-shadow: none;
+    }
+  }
+
+  .template1-content {
+    display: none;
+    @screen md {
+      top: 0;
+      display: flex;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+    }
+  }
+
+  .template1-content.animation {
+    @screen md {
+      animation-name: template1-content-animation;
+      animation-duration: 2s;
+    }
+  }
+
+  .template2-custom-gradient {
+    background: linear-gradient(
+      71.27deg,
+      theme('colors.blue') -28.79%,
+      theme('colors.deep-blue') 65.12%
+    );
+  }
+
+  .template7-custom-gradient {
+    background: linear-gradient(
+      90deg,
+      theme('colors.green') 98%,
+      theme('colors.challenger-green') 100%
+    );
+  }
+
+  .leading-11 {
+    line-height: 3.5rem !important;
+  }
+
+  .banner-image .sc-image-wrapper {
+    @apply flex h-full items-center justify-center;
+  }
+
+  .banner-image .sc-image-wrapper img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,74 @@
+{
+    "rendering": {
+        "uid": "52e8394e-6250-432f-8d2f-e2e9126f625b",
+        "componentName": "POCCard",
+        "dataSource": "{32F5355D-C91F-4DAB-8A4E-AC1499E0C1BD}",
+        "params": {
+            "CacheClearingBehavior": "Clear on publish"
+        },
+        "fields": {
+            "CardTitle": {
+                "value": "Static storybook Test header"
+            },
+            "CardContent": {
+                "value": "<p>some content:<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at lacinia lectus. Mauris magna ex, consectetur eget vulputate eget, ultrices sit amet nibh. Suspendisse cursus posuere dictum. Etiam sed suscipit ante. Sed eu varius sem. Suspendisse dui leo, bibendum et elementum ut, condimentum at elit. Vestibulum interdum vulputate justo vitae luctus. Praesent eget pulvinar velit. Sed scelerisque elit quam, et condimentum leo sollicitudin ac. Nunc non tortor sit amet arcu maximus volutpat ut nec diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer et tortor et nisi malesuada suscipit. Suspendisse potenti.</p>"
+            },
+            "CardLink": {
+                "value": {
+                    "text": "Link description",
+                    "anchor": "",
+                    "linktype": "internal",
+                    "class": "customclass",
+                    "title": "Alternative text",
+                    "target": "_blank",
+                    "querystring": "test=querystring",
+                    "id": "{A2FDEA84-AAE8-4E08-B035-A0A7534FD9E4}",
+                    "href": "/test"
+                }
+            },
+            "CardImage": {
+                "value": {
+                    "src": "/sample1.jpg",
+                    "alt": "alternative text",
+                    "width": "500",
+                    "height": "170"
+                }
+            },
+            "CardTitleStyle": {
+                "id": "9b3d3b61-bca6-4f75-bb33-8ee85facb5d0",
+                "url": "/Data/POCHeaderStyleFolder/H2",
+                "name": "H2",
+                "displayName": "H2",
+                "fields": {
+                    "HeaderType": {
+                        "value": "h2"
+                    }
+                }
+            },
+            "CardTags": [
+                {
+                    "id": "ddde4952-e124-44c2-aa16-625aff4f39d0",
+                    "url": "/Data/POCTags/Tag2",
+                    "name": "Tag2",
+                    "displayName": "Tag2",
+                    "fields": {
+                        "TagTitle": {
+                            "value": "Tag2"
+                        }
+                    }
+                },
+                {
+                    "id": "bb53d505-fa89-45f2-9089-c37cd4f5158d",
+                    "url": "/Data/POCTags/Tag3",
+                    "name": "Tag3",
+                    "displayName": "Tag3",
+                    "fields": {
+                        "TagTitle": {
+                            "value": "Tag3"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

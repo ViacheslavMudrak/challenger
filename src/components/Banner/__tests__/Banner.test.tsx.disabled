@@ -1,0 +1,86 @@
+// import { render, screen, waitFor } from '@testing-library/react';
+// import { BannerComponentProps } from '../Banner.types';
+// import * as nextRouter from 'next/router';
+// import DataTemplate1 from '../mocks/banner.template1.json';
+// import Banner from '../Banner';
+// import { componentBuilder } from 'temp/componentBuilder';
+// import { SitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+
+// describe('Banner', () => {
+//   const mockedUserRouterFn = jest.fn();
+
+//   beforeEach(() => {
+//     jest.spyOn(nextRouter, 'useRouter').mockImplementationOnce(mockedUserRouterFn);
+//   });
+
+//   const cases = ['template2', 'template3', 'template4', 'template6', 'template7', 'template8'];
+
+//   // Todo remove when placeholder with buttons as this wont be in banner
+//   // const mockedButtons = [
+//   //   {
+//   //     label: 'Read more',
+//   //     url: '',
+//   //     variant: 'solid',
+//   //     withArrow: true,
+//   //     color: 'primary',
+//   //     isDisabled: false,
+//   //   },
+//   // ] as ButtonType[];
+
+//   // mock image:
+//   DataTemplate1.rendering.fields.Image.value.src = '/test/banner.jpg';
+//   DataTemplate1.rendering.fields.Image.value.alt = 'test image';
+//   const rendering = DataTemplate1 as any as BannerComponentProps; // eslint-disable-line @typescript-eslint/no-explicit-any
+
+//   test.each(cases)('should render %p correctly', async (arg1: string) => {
+//     rendering.rendering.params.FieldNames = arg1;
+//     render(
+//       <SitecoreContext componentFactory={componentBuilder.getComponentFactory()}>
+//         <Banner rendering={rendering.rendering} />
+//       </SitecoreContext>
+
+//     );
+
+//     const banner = await screen.findByRole('banner');
+//     const heading = await screen.findByRole('heading', { level: 1, name: 'heading test' });
+//     const image = await screen.findByAltText(/test image/i);
+
+//     expect(banner).toBeInTheDocument();
+//     expect(image).toBeInTheDocument();
+//     expect(heading).toBeInTheDocument();
+//   });
+
+//   test('should render correct heading level', async () => {
+//     rendering.rendering.params.FieldNames = 'template1';
+//     rendering.rendering.fields.Content = {value:'testing'};
+//     rendering.rendering.fields.Heading = {value:'heading test'};
+//     rendering.rendering.fields.HeadingLevel = {fields:{Level:{value:'h2'}}};
+//     render(
+//       <SitecoreContext componentFactory={componentBuilder.getComponentFactory()}>
+//         <Banner rendering={rendering.rendering} />
+//       </SitecoreContext>
+//     );
+
+//     const heading = await screen.findByRole('heading', { level: 2, name: 'heading test' });
+
+//     expect(heading).toBeInTheDocument();
+//   });
+
+//   test('should render loader when it is busy', async () => {
+//     rendering.rendering.params.FieldNames = 'template1';
+//     rendering.rendering.fields.Content = {value:'testing'};
+//     rendering.rendering.fields.Heading = {value:'heading test'};
+//     rendering.rendering.fields.HeadingLevel = {fields:{Level:{value:'h2'}}};
+//     render(
+//       <SitecoreContext componentFactory={componentBuilder.getComponentFactory()}>
+//         <Banner rendering={rendering.rendering} />
+//       </SitecoreContext>
+//     );
+
+//     await waitFor(() => {
+//       const loader = screen.getByRole('status');
+
+//       expect(loader).toBeInTheDocument();
+//     });
+//   });
+// });

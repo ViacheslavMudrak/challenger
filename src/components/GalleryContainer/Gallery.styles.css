@@ -1,0 +1,39 @@
+@tailwind base;
+
+@layer base {
+  .gallery-container .spacing-small {
+    @apply gap-4;
+  }
+
+  .gallery-container .spacing-medium {
+    @apply gap-5;
+  }
+
+  .gallery-container .spacing-large {
+    @apply gap-6;
+  }
+
+  .gallery-container .spacing-xlarge {
+    @apply gap-7;
+  }
+
+  .gallery-container .position-left {
+    @apply justify-start;
+  }
+
+  .gallery-container .position-right {
+    @apply justify-end;
+  }
+
+  .gallery-container .position-center {
+    @apply justify-center;
+  }
+  @media (min-width: 1200px) {
+    .column-container.FortySixty .gallery-container .edit-mode {
+      @apply grid-cols-2;
+    }
+    .column-container.FortySixty .gallery-container .gallery-card-wrapper {
+      @apply max-w-[calc(50%-12px)] basis-[calc(50%-12px)];
+    }
+  }
+}

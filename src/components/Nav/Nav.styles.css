@@ -1,0 +1,181 @@
+@tailwind base;
+
+@layer base {
+  @keyframes nav-menu-slide-down-animation {
+    0% {
+      opacity: 0;
+      top: 0;
+    }
+    100% {
+      opacity: 1;
+      top: 88px;
+    }
+  }
+
+  @keyframes nav-menu-slide-up-animation {
+    0% {
+      opacity: 1;
+      top: 88px;
+      transform: scaleY(1);
+    }
+    100% {
+      opacity: 0;
+      top: 0;
+      transform: scaleY(1);
+    }
+  }
+
+  @keyframes nav-menu-scale-animation {
+    0% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(0);
+    }
+  }
+
+  @keyframes spin-up {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+
+  @keyframes spin-down {
+    from {
+      transform: rotate(180deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes nav-drawer-slide-out-animation {
+    from {
+      opacity: 1;
+      transform: translate3d(100%, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes nav-drawer-slide-in-animation {
+    from {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+
+  @keyframes nav-drawer-fade-out-animation {
+    0% {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scaleX(1);
+    }
+  }
+
+  @keyframes nav-drawer-scale-animation {
+    0% {
+      opacity: 0;
+      transform: scaleX(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+  }
+
+  @keyframes nav-drawer-fade-in-animation {
+    0% {
+      opacity: 0;
+      transform: scaleX(1);
+    }
+    100% {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+
+  .nav-menu-panel {
+    top: 88px;
+    opacity: 1;
+  }
+
+  .nav-menu-panel.slide-down-animation {
+    animation-name: nav-menu-slide-down-animation;
+    animation-duration: 500ms;
+  }
+
+  .nav-menu-panel.slide-up-animation {
+    animation-name: nav-menu-slide-up-animation;
+    animation-duration: 500ms;
+
+    animation:
+      nav-menu-slide-up-animation 500ms ease-out 1 forwards,
+      nav-menu-scale-animation 100ms ease-out 500ms 1 forwards;
+    opacity: 0;
+    transform: scaleY(0);
+  }
+
+  .nav-menu-chevron-up {
+    animation-name: spin-up;
+    animation-duration: 200ms;
+  }
+
+  .nav-menu-chevron-down {
+    animation-name: spin-down;
+    animation-duration: 200ms;
+    transform: rotate(0deg);
+  }
+
+  .nav-drawer {
+    right: 0;
+    opacity: 0;
+  }
+
+  .nav-drawer.fade-in-animation {
+    animation-name: nav-drawer-fade-in-animation;
+    animation-duration: 500ms;
+    opacity: 1;
+    transform: scaleX(1);
+    display: flex;
+  }
+
+  .nav-drawer.fade-out-animation {
+    animation:
+      nav-drawer-fade-out-animation 1000ms ease-out 1 forwards,
+      nav-drawer-scale-animation 100ms ease-out 1s 1 forwards;
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  .nav-drawer.slide-out-animation {
+    animation-name: nav-drawer-slide-out-animation;
+    animation-duration: 300ms;
+    opacity: 1;
+  }
+
+  .nav-drawer.slide-in-animation {
+    animation:
+      nav-drawer-slide-in-animation 300ms ease-out 1 forwards,
+      nav-drawer-scale-animation 100ms ease-out 300ms 1 forwards;
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  .nav-drawer {
+    height: calc(100vh - 75px);
+    height: calc(100dvh - 75px);
+  }
+}

@@ -1,0 +1,23 @@
+﻿---
+ID: "df566bf1-2fd5-488b-ad4d-9c7321c060a8"
+Parent: "9bebcc4f-b067-4f90-967c-97c0a891c2de"
+Template: "a1492e2c-744b-4ba4-a974-70f883281f1e"
+Path: /sitecore/content/Challenger/Challenger/Data/Tab Folder
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T051251Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "db67583a-0e3d-4066-925a-50f4c155dbfc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\kkesav@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T051251Z

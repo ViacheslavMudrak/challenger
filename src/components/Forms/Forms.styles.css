@@ -1,0 +1,219 @@
+@tailwind base;
+
+@layer base {
+  .content .row-slot-wrapper {
+    @apply flex w-full flex-col md:flex-row md:gap-4;
+  }
+
+  .content .lp-flex-container {
+    @apply w-full max-w-full md:w-auto;
+  }
+
+  /* Styles for field general styles */
+  .content .checkbox-field.checkbox-field.checkbox-field,
+  .content .multi-select-field.multi-select-field.multi-select-field,
+  .content .shared-input-field.shared-input-field.shared-input-field,
+  .content .single-select-field.single-select-field.single-select-field {
+    @apply bg-transparent;
+  }
+
+  .content .form-input-select-element i {
+    @apply mb-[5px];
+  }
+
+  /* Styles for field label */
+  .content .global-input-label.global-input-label.global-input-label {
+    text-decoration: none;
+    @apply block min-h-6 font-roboto-700 text-base;
+  }
+
+  /* Styles for field required asterisk */
+  .content .global-field-required.global-field-required.global-field-required {
+    @apply text-error-red-dark;
+  }
+
+  /* Styles for field input wrapper */
+  .content .global-input-wrapper.global-input-wrapper.global-input-wrapper {
+    @apply mt-2 rounded-sm border-[1px] bg-transparent shadow-none;
+  }
+
+  /* Styles for field input element */
+  .content .global-input-element.global-input-element.global-input-element {
+    @apply p-4 font-roboto-400 text-base;
+  }
+
+  .content .global-input-wrapper .limit-counter {
+    display: none;
+  }
+
+  /* Styles for field placeholder */
+  .content .global-input-element.global-input-element.global-input-element::placeholder {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    @apply font-roboto-400 text-base;
+  }
+
+  /* Styles for field help text */
+  .content .global-input-description.global-input-description.global-input-description {
+    text-decoration: none;
+    @apply mt-2 block font-roboto-400 text-sm;
+    padding-left: initial;
+  }
+
+  /* Styles for field error message */
+  .content .global-input-error-message.global-input-error-message.global-input-error-message {
+    text-decoration: none;
+    @apply mt-2 block font-roboto-400 text-sm;
+    display: block;
+    padding-left: initial;
+  }
+
+  /* Styles for field radio wrapper */
+  .content .radio-group-field.radio-group-field.radio-group-field {
+    @apply bg-transparent;
+  }
+
+  /* Styles for field radio element */
+  .content .global-radio-element.global-radio-element.global-radio-element {
+    /*background: rgba(255, 255, 255, 1);*/
+    border-width: 2px;
+    /*border-color: rgba(0, 0, 0, 0.42);*/
+    border-radius: 17px;
+    box-shadow: none;
+  }
+
+  /* Styles for field radio marker */
+  .content .global-radio-fill.global-radio-fill.global-radio-fill::before {
+    border-radius: 10px;
+    margin-left: -7px;
+    margin-top: -7px;
+    /*background-color: rgba(0, 0, 0, 1);*/
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Styles for field radio wrapper */
+  /*.content .checkbox-group-field.checkbox-group-field.checkbox-group-field {
+    background-color: transparent;
+  }*/
+
+  /* Styles for field checkbox element */
+  .content .global-checkbox-element.global-checkbox-element.global-checkbox-element {
+    /*background: rgba(255, 255, 255, 1);*/
+    border-width: 2px;
+    /*border-color: rgba(0, 0, 0, 0.42);*/
+    border-radius: 2px;
+    box-shadow: none;
+  }
+
+  /* Styles for field checkbox marker */
+  .content .global-checkbox-check-marker.global-checkbox-check-marker.global-checkbox-check-marker {
+    display: none;
+    margin-left: -10px;
+    margin-top: -10px;
+    /*color: rgba(0, 0, 0, 1);*/
+    font-size: 20px;
+  }
+
+  /* Styles for Recaptcha wrapper */
+  .content .global-recaptcha-wrapper.global-recaptcha-wrapper.global-recaptcha-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+  }
+
+  /* Styles for Recaptcha element */
+  .content .global-recaptcha-element.global-recaptcha-element.global-recaptcha-element {
+    box-shadow: none;
+  }
+
+  /* Styles for Submit and Next button wrappers */
+  /*.content .global-button-wrapper.global-button-wrapper.global-button-wrapper {
+    background-color: transparent;
+  }*/
+
+  /* Styles for Submit and Next buttons */
+  .content .global-button-wrapper.global-button-wrapper.global-button-wrapper .submit-button,
+  .content .global-button-wrapper.global-button-wrapper.global-button-wrapper .next-button {
+    border-width: 0px;
+    text-decoration: none;
+    @apply w-full rounded-sm font-roboto-700 text-base md:w-auto md:min-w-36;
+    font-style: normal;
+    box-shadow: none;
+    padding: 16px;
+  }
+
+  /* Styles for Back button */
+  .content .global-button-wrapper.global-button-wrapper.global-button-wrapper .back-button {
+    background-color: transparent;
+    border-width: 0px;
+    text-decoration: none;
+    @apply rounded-sm font-roboto-700 text-base;
+    font-style: normal;
+    box-shadow: none;
+
+    padding: 0px;
+    width: auto;
+  }
+
+  /* Styles for Image */
+  .content .global-image.global-image.global-image {
+    background-color: transparent;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 0px;
+  }
+
+  /* Styles for Image */
+  .content .global-image.global-image.global-image a {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  /* Styles for Image */
+  .content .global-image.global-image.global-image img {
+    border-radius: 0px;
+    border-width: 0px;
+    border-color: #000000;
+    border-style: unset;
+    box-shadow: none;
+  }
+
+  /* Styles for Social */
+  .content .global-social.global-social.global-social {
+    background-color: transparent;
+    text-align: center;
+    box-shadow: none;
+  }
+
+  /* Styles for Social */
+  .content .global-social.global-social.global-social .social-icon-spacing {
+    width: 1px;
+  }
+
+  /* Styles for Text */
+  .content .global-text.global-text.global-text {
+    padding: 10px;
+    border-width: 0px;
+    /*border-color: #000000;*/
+    border-radius: 0px;
+    /*background-color: transparent;*/
+    box-shadow: none;
+  }
+
+  /* Styles for Spacer */
+  .content .global-spacer.global-spacer.global-spacer {
+    /*background-color: transparent;*/
+    border-width: 0px;
+    border-radius: 0px;
+    /*border-color: #000000;*/
+    border-style: unset;
+    height: 40px;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rendering": {
+    "uid": "4962b2ec-e176-4d31-8824-46d2f4e350cf",
+    "componentName": "Search",
+    "dataSource": "{24774819-b737-429c-ac6f-d604447fe248}",
+    "params": {
+      "CacheClearingBehavior": "Clear on publish",
+      "DynamicPlaceholderId": "1",
+      "Styles": "bg-white spacing-medium position-center"
+    },
+    "fields": {
+      "SearchBoxPlaceholder": {
+        "value": "Search"
+      },
+      "CommonSearchesTitle": {
+        "value": "Common Searches"
+      },
+      "CommonSearchesText": {
+        "value": "What is an annuity=Testing\u0026Who can I contact for advise?=TEsting%20112\u0026Waht\u0026Are you sure"
+      },
+      "PageTitle": {
+        "value": "What are you looking for?"
+      }
+    }
+  }
+}

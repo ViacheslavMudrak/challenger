@@ -1,0 +1,42 @@
+@tailwind base;
+
+@layer base {
+  @keyframes card-wizard-slide-out-animation {
+    from {
+      opacity: 1;
+      transform: translate3d(100%, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes card-wizard-slide-in-animation {
+    from {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+
+  .card-wizard {
+    right: 0;
+    opacity: 0;
+  }
+
+  .card-wizard.slide-out-animation {
+    animation-name: card-wizard-slide-out-animation;
+    animation-duration: 300ms;
+    opacity: 1;
+  }
+
+  .card-wizard.slide-in-animation {
+    animation: card-wizard-slide-in-animation 300ms ease-out 1 forwards;
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}

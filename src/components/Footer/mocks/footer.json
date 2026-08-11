@@ -1,0 +1,547 @@
+{
+    "rendering": {
+        "uid": "fba81c4c-b25c-4c9b-bd41-67a632b6e08e",
+        "componentName": "Footer",
+        "dataSource": "",
+        "params": {
+            "CacheClearingBehavior": "Clear on publish",
+            "link_component": "Footer"
+        },
+        "placeholders": {
+            "footer-bottom-left": [
+                {
+                    "uid": "3d756134-d1b6-45c5-95fa-1245075e2843",
+                    "componentName": "Footer.copyright",
+                    "dataSource": "",
+                    "params": {
+                        "CacheClearingBehavior": "Clear on publish"
+                    }
+                }
+            ],
+            "footer-bottom-right": [
+                {
+                    "uid": "7f94f734-810c-4a8f-82f7-bedb8acd9d1c",
+                    "componentName": "Footer.bottom.links",
+                    "dataSource": "{E8B81452-E227-44BC-ADBE-85F53D0E09BF}",
+                    "fields": {
+                        "items": [
+                            {
+                                "id": "4673e6a0-0558-48a9-a87c-509b2aa8e406",
+                                "url": "/Data/Link-Lists/Footer-Bottom-Links/Global/Condition-of-use",
+                                "name": "Condition of use",
+                                "displayName": "Condition of use",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.challenger.com.au/conditions-of-use",
+                                            "text": "Condition of use",
+                                            "linktype": "external",
+                                            "url": "https://www.challenger.com.au/conditions-of-use",
+                                            "anchor": "",
+                                            "title": "Condition of use",
+                                            "target": "_blank"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "79fa2e9e-a8af-4e49-9c85-b91f29c4e041",
+                                "url": "/Data/Link-Lists/Footer-Bottom-Links/Global/Disclaimer",
+                                "name": "Disclaimer",
+                                "displayName": "Disclaimer",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.challenger.com.au/disclaimer",
+                                            "text": "Disclaimer",
+                                            "linktype": "external",
+                                            "url": "https://www.challenger.com.au/disclaimer",
+                                            "anchor": "",
+                                            "title": "Disclaimer",
+                                            "target": "_blank"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "0ea88644-f88d-4019-a012-cf8be1c62e7b",
+                                "url": "/Data/Link-Lists/Footer-Bottom-Links/Global/Financial-services-guide",
+                                "name": "Financial services guide",
+                                "displayName": "Financial services guide",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.challenger.com.au/-/media/challenger/documents/disclosures/challenger-fsg.pdf",
+                                            "text": "Financial services guide",
+                                            "linktype": "external",
+                                            "url": "https://www.challenger.com.au/-/media/challenger/documents/disclosures/challenger-fsg.pdf",
+                                            "anchor": "",
+                                            "title": "Financial services guide",
+                                            "target": "_blank"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "c28b818a-83d4-478f-9215-047372fe0bd0",
+                                "url": "/Data/Link-Lists/Footer-Bottom-Links/Global/Privacy",
+                                "name": "Privacy",
+                                "displayName": "Privacy",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.challenger.com.au/privacy",
+                                            "text": "Privacy",
+                                            "linktype": "external",
+                                            "url": "https://www.challenger.com.au/privacy",
+                                            "anchor": "",
+                                            "title": "Privacy",
+                                            "target": ""
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "44347e1b-f880-4ba5-a85e-0342762fa822",
+                                "url": "/Data/Link-Lists/Footer-Bottom-Links/Global/Shareholder-Centre",
+                                "name": "Shareholder Centre",
+                                "displayName": "Shareholder Centre",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.challenger.com.au/privacy",
+                                            "text": "Shareholder centre",
+                                            "linktype": "external",
+                                            "url": "https://www.challenger.com.au/privacy",
+                                            "anchor": "",
+                                            "title": "Shareholder centre",
+                                            "target": ""
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "12e4e485-1d53-435c-995b-d1433e948fa2",
+                                "url": "/Data/Link-Lists/Footer-Bottom-Links/Global/Accessibility",
+                                "name": "Accessibility",
+                                "displayName": "Accessibility",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.challenger.com.au/accessibility",
+                                            "text": "Accessibility",
+                                            "linktype": "external",
+                                            "url": "https://www.challenger.com.au/accessibility",
+                                            "anchor": "",
+                                            "title": "Accessibility",
+                                            "target": ""
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "footer-middle": [
+                {
+                    "uid": "a83f9bd2-d64f-4b0b-a71f-4eb76dff7a9b",
+                    "componentName": "Footer.acknowledgement",
+                    "dataSource": "{BEAC239B-37C3-4851-B809-89C01112DAA7}",
+                    "params": {
+                        "CacheClearingBehavior": "Clear on publish"
+                    },
+                    "fields": {
+                        "Text": {
+                            "value": "Challenger acknowledges the Traditional Owners of Country throughout Australia and we pay our respects to Elders past and present. We recognise the continuing connection that Aboriginal and Torres Strait Islander peoples have to this land and acknowledge their unique and rich contribution to society."
+                        }
+                    }
+                },
+                {
+                    "uid": "932f07b8-606f-4eb6-8d41-276caf14341d",
+                    "componentName": "Footer.disclaimer",
+                    "dataSource": "{4414EC60-4C81-4D94-823D-FCA328B6B58B}",
+                    "params": {
+                        "CacheClearingBehavior": "Clear on publish"
+                    },
+                    "fields": {
+                        "data": {
+                            "personaValue": {
+                                "DisclaimerText": {
+                                    "value": "<p>The information in this webpage is intended to be general only and has been prepared without taking into account your objectives, financial situation or needs. Because of that, you should consider its appropriateness, having regard to your objectives, financial situation and needs before acting on any such information.</p><p>You should obtain and consider the relevant Target Market Determination (TMD) and Product Disclosure Statement (PDS) before making a decision about whether to acquire or continue to hold any financial product. A copy of the TMD and PDS can be obtained from your financial adviser, our Investor Services team on 13 35 66, or at <a href='https://www.challenger.com.au' target='_blank'>www.challenger.com.au.</a></p>"
+                                },
+                                "DisclaimerGeneralText": {
+                                    "value": "<p>General disclaimer here</p>"
+                                }
+                            },
+                            "defaultValue": {
+                                "DisclaimerText": {
+                                    "value": "<p>The information in this webpage is intended to be general only and has been prepared without taking into account your objectives, financial situation or needs. Because of that, you should consider its appropriateness, having regard to your objectives, financial situation and needs before acting on any such information.</p><p>You should obtain and consider the relevant Target Market Determination (TMD) and Product Disclosure Statement (PDS) before making a decision about whether to acquire or continue to hold any financial product. A copy of the TMD and PDS can be obtained from your financial adviser, our Investor Services team on 13 35 66, or at <a href=\"https://www.challenger.com.au\" target=\"_blank\">www.challenger.com.au.</a></p>"
+                                },
+                                "DisclaimerGeneralText": {
+                                    "value": "<p>General disclaimer here</p>"
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "footer-top-left": [
+                {
+                    "uid": "0e8f17a0-3662-4a21-a2ff-43ce4631c013",
+                    "componentName": "Footer.imagelogo",
+                    "dataSource": "{C1446C4C-9943-46A2-90FD-3CDE49FCC40F}",
+                    "params": {
+                        "GridParameters": "basis-full",
+                        "CacheClearingBehavior": "Clear on publish",
+                        "DynamicPlaceholderId": "2",
+                        "FieldNames": "Default"
+                    },
+                    "fields": {
+                        "TargetUrl": {
+                            "value": {
+                                "text": "",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "target": "",
+                                "querystring": "",
+                                "id": "{C76B30B4-E41E-420B-B447-CEAC6DEE6963}",
+                                "href": "/"
+                            }
+                        },
+                        "Image": {
+                            "value": {
+                                "src": "challenger_logo_white.svg",
+                                "alt": ""
+                            }
+                        },
+                        "ImageCaption": {
+                            "value": ""
+                        }
+                    }
+                },
+                {
+                    "uid": "d0384de6-3fb7-4da1-91c4-f39a6ddcf40d",
+                    "componentName": "Footer.slogan",
+                    "dataSource": "{A53D043A-82FC-4D07-B4A8-5C176F187A3E}",
+                    "params": {
+                        "CacheClearingBehavior": "Clear on publish"
+                    },
+                    "fields": {
+                        "Text": {
+                            "value": "We’re an investment management firm focused on providing our customers with financial security for a better retirement."
+                        }
+                    }
+                },
+                {
+                    "uid": "5c77b2e3-6569-456a-bc3d-7c4586da93c1",
+                    "componentName": "Footer.social.links",
+                    "dataSource": "{B4391CBB-4005-415C-AA95-582AE31258FB}",
+                    "params": {
+                        "CacheClearingBehavior": "Clear on publish"
+                    },
+                    "fields": {
+                        "items": [
+                            {
+                                "id": "a6a01c27-6f96-492c-8525-c12071d0a50f",
+                                "url": "/Data/Icon-Link-Lists/Footer-Social/Facebook",
+                                "name": "Facebook",
+                                "displayName": "Facebook",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.facebook.com/ChallengerLtd",
+                                            "text": "Facebook",
+                                            "linktype": "external",
+                                            "url": "https://www.facebook.com/ChallengerLtd",
+                                            "anchor": "",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "Icon": {
+                                        "id": "93f42084-0e91-4dd0-a77d-7c747c135096",
+                                        "url": "/Data/Icons/Social/FacebookIcon",
+                                        "name": "FacebookIcon",
+                                        "displayName": "FacebookIcon",
+                                        "fields": {
+                                            "IconType": {
+                                                "value": "FacebookIcon"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "ceadfa7f-bdf9-41a9-a0a2-b610fba5b885",
+                                "url": "/Data/Icon-Link-Lists/Footer-Social/LinkedIn",
+                                "name": "LinkedIn",
+                                "displayName": "LinkedIn",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://www.linkedin.com/company/challenger-limited",
+                                            "text": "LinkedIn",
+                                            "linktype": "external",
+                                            "url": "https://www.linkedin.com/company/challenger-limited",
+                                            "anchor": "",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "Icon": {
+                                        "id": "c570663c-df48-4256-b942-14b6f74b567f",
+                                        "url": "/Data/Icons/Social/LinkedInIcon",
+                                        "name": "LinkedInIcon",
+                                        "displayName": "LinkedInIcon",
+                                        "fields": {
+                                            "IconType": {
+                                                "value": "LinkedInIcon"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "footer-top-middle": [
+                {
+                    "uid": "83b38ce7-b9a4-490d-894f-cfa784df4c8c",
+                    "componentName": "Footer.main.links",
+                    "dataSource": "{7AC34AF2-FB88-4DBB-B421-4EC038A11F81}",
+                    "params": {
+                        "CacheClearingBehavior": "Clear on publish"
+                    },
+                    "fields": {
+                        "data": {
+                            "Title": {
+                                "field": {
+                                    "Title": {
+                                        "value": "About Challenger"
+                                    }
+                                }
+                            },
+                            "Link": {
+                                "field": {
+                                    "Link": {
+                                        "value": {
+                                            "text": "",
+                                            "anchor": "",
+                                            "linktype": "internal",
+                                            "class": "",
+                                            "title": "",
+                                            "target": "",
+                                            "querystring": "",
+                                            "id": "{5E223712-4840-42E1-A46E-B8CCB1964E4F}",
+                                            "href": "/About"
+                                        }
+                                    }
+                                }
+                            },
+                            "items": {
+                                "children": {
+                                    "results": [
+                                        {
+                                            "field": {
+                                                "Link": {
+                                                    "value": {
+                                                        "href": "https://challenger.com.au",
+                                                        "text": "Board of Directors",
+                                                        "linktype": "external",
+                                                        "url": "https://challenger.com.au",
+                                                        "anchor": "",
+                                                        "title": "Board of Directors",
+                                                        "target": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "field": {
+                                                "Link": {
+                                                    "value": {
+                                                        "href": "https://challenger.com.au",
+                                                        "text": "Careers",
+                                                        "linktype": "external",
+                                                        "url": "https://challenger.com.au",
+                                                        "anchor": "",
+                                                        "title": "Careers",
+                                                        "target": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "field": {
+                                                "Link": {
+                                                    "value": {
+                                                        "href": "https://challenger.com.au",
+                                                        "text": "Leadership Team",
+                                                        "linktype": "external",
+                                                        "url": "https://challenger.com.au",
+                                                        "anchor": "",
+                                                        "title": "Leadership Team",
+                                                        "target": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "field": {
+                                                "Link": {
+                                                    "value": {
+                                                        "href": "https://challenger.com.au",
+                                                        "text": "Media centre",
+                                                        "linktype": "external",
+                                                        "url": "https://challenger.com.au",
+                                                        "anchor": "",
+                                                        "target": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "field": {
+                                                "Link": {
+                                                    "value": {
+                                                        "href": "https://challenger.com.au",
+                                                        "text": "Shareholder centre",
+                                                        "linktype": "external",
+                                                        "url": "https://challenger.com.au",
+                                                        "anchor": "",
+                                                        "target": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "field": {
+                                                "Link": {
+                                                    "value": {
+                                                        "href": "https://challenger.com.au",
+                                                        "text": "Sustainability",
+                                                        "linktype": "external",
+                                                        "url": "https://challenger.com.au",
+                                                        "anchor": "",
+                                                        "target": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "footer-top-right": [
+                {
+                    "uid": "0306cedb-365d-44aa-aab5-4f99e838be0b",
+                    "componentName": "Footer.contact.links",
+                    "dataSource": "{FCB5F7CE-426E-408D-B7F6-A3FD7FE46EC5}",
+                    "params": {
+                        "CacheClearingBehavior": "Clear on publish"
+                    },
+                    "fields": {
+                        "items": [
+                            {
+                                "id": "c63dcfba-1cee-4608-9b35-5fcde92a8027",
+                                "url": "/Data/Icon-Link-Lists/Footer-Contact-Links/Phone",
+                                "name": "Phone",
+                                "displayName": "Phone",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "http://tel:133566",
+                                            "text": "13 35 66",
+                                            "linktype": "external",
+                                            "url": "tel:133566",
+                                            "anchor": "",
+                                            "title": "13 35 66",
+                                            "class": "font-roboto-700 text-lg",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "Icon": {
+                                        "id": "570fe6b4-09a1-4b71-b058-b7b04450a913",
+                                        "url": "/Data/Icons/General/PhoneIcon",
+                                        "name": "PhoneIcon",
+                                        "displayName": "PhoneIcon",
+                                        "fields": {
+                                            "IconType": {
+                                                "value": "PhoneIcon"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "1de8bdcd-1dd8-47dd-b910-27ff2894c39f",
+                                "url": "/Data/Icon-Link-Lists/Footer-Contact-Links/Email",
+                                "name": "Email",
+                                "displayName": "Email",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "mailto:info@challenger.com.au",
+                                            "text": "info@challenger.com.au",
+                                            "linktype": "mailto",
+                                            "style": "text-sm",
+                                            "url": "mailto:info@challenger.com.au",
+                                            "title": ""
+                                        }
+                                    },
+                                    "Icon": {
+                                        "id": "f92b1af2-a72d-470d-9d81-46c8d5451873",
+                                        "url": "/Data/Icons/General/MailIcon",
+                                        "name": "MailIcon",
+                                        "displayName": "MailIcon",
+                                        "fields": {
+                                            "IconType": {
+                                                "value": "MailIcon"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2dd21910-d4c3-4e42-a43c-49aeb174032f",
+                                "url": "/Data/Icon-Link-Lists/Footer-Contact-Links/Map",
+                                "name": "Map",
+                                "displayName": "Map",
+                                "fields": {
+                                    "Link": {
+                                        "value": {
+                                            "href": "https://maps.google.com/maps?q=sydney+nsw+2000+5+martin+place+level+2",
+                                            "text": "ChallengerLevel 2, 5 Martin Place, Sydney NSW 2000",
+                                            "linktype": "external",
+                                            "url": "https://maps.google.com/maps?q=sydney+nsw+2000+5+martin+place+level+2",
+                                            "anchor": "",
+                                            "title": "Level 2, 5 Martin Place, Sydney NSW 2000",
+                                            "class": "text-sm",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "Icon": {
+                                        "id": "0b9c946f-56c8-4ae3-99c5-4f9f3e5755c5",
+                                        "url": "/Data/Icons/General/MapIcon",
+                                        "name": "MapIcon",
+                                        "displayName": "MapIcon",
+                                        "fields": {
+                                            "IconType": {
+                                                "value": "MapIcon"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

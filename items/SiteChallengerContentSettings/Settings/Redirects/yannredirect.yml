@@ -1,0 +1,44 @@
+﻿---
+ID: "007ac1c5-9343-4c47-b4e2-9a55c3d96632"
+Parent: "9673ff55-2ed8-4d75-b9b9-9a96d03c4f20"
+Template: "f4fb6125-f113-4373-8aa2-4648c2c1960e"
+Path: /sitecore/content/Challenger/Challenger/Settings/Redirects/yannredirect
+SharedFields:
+- ID: "5ecfffc9-d530-4512-b757-9e9830f07d5a"
+  Hint: UrlMapping
+  Value: yannredirect=maksym
+- ID: "980dfa07-41d4-4c4e-ab28-de657afdb6bc"
+  Hint: RedirectType
+  Value: Redirect301
+- ID: "bf5b4f11-4995-4edf-b8db-f436a503e02e"
+  Hint: IncludeVirtualFolder
+  Value: 1
+- ID: "f24d347e-98c2-4995-a14c-b15697ba86e5"
+  Hint: PreserveQueryString
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231126T215309Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\yrandri@challenger.com.au
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\yrandri@challenger.com.au
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7872d515-7df1-411d-9582-bf10845baafc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yrandri@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231128T023309Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "0c79dd2d-b712-4614-9f68-e14b9799373c"
+Parent: "9bebcc4f-b067-4f90-967c-97c0a891c2de"
+Template: "b0eb1047-6407-4328-bcf6-ddd4ea67ad29"
+Path: /sitecore/content/Challenger/Challenger/Data/CustomList Folder
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241003T183546Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a0946c4-2dae-4853-b3ab-5637a660acfb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\skattula@challenger.com.au
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241003T183546Z

@@ -1,0 +1,57 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "ChallengerSite",
+    "tags": ["challenger-required"],
+    "items": {
+        "includes": [
+            {
+                "name": "SiteChallengerContent",
+                "path": "/sitecore/content/Challenger/Challenger",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "SiteChallengerContentData",
+                "path": "/sitecore/content/Challenger/Challenger/Data",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "ItemAndChildren"
+            },
+            {
+                "name": "SiteChallengerContentDictionary",
+                "path": "/sitecore/content/Challenger/Challenger/Dictionary",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "SiteChallengerContentMedia",
+                "path": "/sitecore/content/Challenger/Challenger/Media",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "SiteChallengerContentSettings",
+                "path": "/sitecore/content/Challenger/Challenger/Settings",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "ItemAndDescendants",
+                "rules": [
+                  {
+                      "path": "/AnalyticsScript",
+                      "scope": "ignored"
+                  }
+                ]
+            },
+            {
+                "name": "SiteChallengerMediaSystem",
+                "path": "/sitecore/media library/Project/Challenger/Challenger/System",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "SiteChallengerMediaSitemaps",
+                "path": "/sitecore/media library/Project/Challenger/Challenger/Sitemaps",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "SingleItem"
+            }
+        ]
+    }
+}

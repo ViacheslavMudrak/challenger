@@ -1,0 +1,15 @@
+@tailwind base;
+
+@layer base {
+  .related-content .position-left {
+    @apply justify-start;
+  }
+
+  .related-content .position-right {
+    @apply justify-end;
+  }
+
+  .related-content .position-center {
+    @apply justify-center;
+  }
+}

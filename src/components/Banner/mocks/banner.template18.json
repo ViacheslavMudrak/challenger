@@ -1,0 +1,110 @@
+{
+  "rendering": {
+    "uid": "ff714569-452d-4ca5-8d8c-706f3f31751d",
+    "componentName": "Banners.Sitecore",
+    "dataSource": "{9101BA2F-B662-4ADA-8711-4F381135FDA1}",
+    "params": {
+        "GridParameters": "basis-full",
+        "FieldNames": "CTA_Footer_Banner_Image",
+        "DynamicPlaceholderId": "1",
+         "link_component": "Banner"
+    },
+    "fields": {
+        "BannerHeading": {
+            "value": "Life changes needn't be life changing"
+        },
+        "BannerSubHeading": {
+            "value": ""
+        },
+        "BannerContent": {
+            "value": "Life's full of twists and turns. Change happens. Adapt with confidence."
+        },
+        "BannerImage": {
+            "value": {
+                "src": "/sample2.jpg",
+                "alt": "",
+                "width": "1600",
+                "height": "550"
+            }
+        },
+        "BannerHeadingLevel": {
+            "id": "9827e4fe-b9f9-41cb-be35-146581eb1348",
+            "url": "/Data/HeadingLevels/h1",
+            "name": "h2",
+            "displayName": "h2",
+            "fields": {
+                "Level": {
+                    "value": "h2"
+                }
+            }
+        },
+        "BannerBgColor": {
+            "id": "2572705f-5962-4e64-82dc-3caa4efb26ad",
+            "url": "/Data/Background-Colors/Banners/Grey",
+            "name": "Grey",
+            "displayName": "Grey",
+            "fields": {
+                "Color": {
+                    "value": "Grey"
+                }
+            }
+        },
+        "BannerWithAnimation": {
+            "value": true
+        },
+        "FullName": {
+            "value": "John Doe"
+        },
+        "Role": {
+            "value": "Content Editor"
+        },
+        "DurationInMins": {
+            "value": "15 min read"
+        },
+        "PublishedDate": {
+            "value": "2023-02-02T00:00:00Z"
+        }
+    },
+    "placeholders": {
+        "ph-button-{*}": [
+            {
+                "uid": "7f2af7ac-cf99-4d86-9b8c-7e7c5b8cb4f2",
+                "componentName": "Button.sitecore",
+                "dataSource": "/sitecore/content/Challenger/Challenger/Home/Personal/Data/ButtonContent 30",
+                "params": {
+                    "GridParameters": "basis-full",
+                    "FieldNames": "Default",
+                    "CacheClearingBehavior": "Clear on publish",
+                    "DynamicPlaceholderId": "8"
+                },
+                "fields": {
+                    "LinkValue": {
+                        "value": {
+                            "linktype": "internal",
+                            "text": "Get started",
+                            "querystring": "",
+                            "target": "_blank",
+                            "id": "{9EEB4BF3-33F7-412A-BF35-5C5F7BACCD6F}",
+                            "href": "/"
+                        }
+                    },
+                    "Color": {
+                        "id": "c70a4cd9-4c1d-4993-870f-56fcf470b81c",
+                        "url": "/Data/Button-Types/Secondary",
+                        "name": "Secondary",
+                        "displayName": "Secondary",
+                        "fields": {
+                            "Type": {
+                                "value": "secondary"
+                            }
+                        }
+                    },
+                    "HasArrow": {
+                        "value": true
+                    }
+                }
+            }
+        ]
+    }
+  }
+}
